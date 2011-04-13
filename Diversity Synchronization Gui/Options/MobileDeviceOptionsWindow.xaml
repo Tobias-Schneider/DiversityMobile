@@ -1,0 +1,73 @@
+﻿<Window x:Class="Diversity_Synchronization_Gui.Options.MobileDeviceOptionsWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Text ID 1601" Width="500" Topmost="True" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" SizeToContent="Height">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="15" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="15" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25" />
+            <RowDefinition Height="10" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="34" />
+            <RowDefinition Height="10" />
+            <RowDefinition Height="2" />
+            <RowDefinition Height="15" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="15" />
+            <RowDefinition Height="25" />
+            <RowDefinition Height="15" />
+        </Grid.RowDefinitions>
+        <Menu Grid.ColumnSpan="3">
+            <MenuItem Name="menuItemMenu" Header="Text ID 1602">
+                <MenuItem Name="menuItemSaveAndClose" Header="Text ID 1603" Click="menuItemSaveAndClose_Click"/>
+                <MenuItem Name="menuItemCancel" Header="Text ID 1604" Click="menuItemCancel_Click"/>
+            </MenuItem>
+            <MenuItem Name="menuItemHelp" Header="Text ID 1605" IsEnabled="False" Click="menuItemHelp_Click">
+            </MenuItem>
+        </Menu>
+        <Rectangle Grid.Row="1" Grid.RowSpan="4" Grid.ColumnSpan="3">
+            <Rectangle.Fill>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop Offset="0" Color="#ffcc99"></GradientStop>
+                    <GradientStop Offset="1" Color="#ffb272"></GradientStop>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Grid.Row="5" Grid.ColumnSpan="3">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="Black">
+                </SolidColorBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Grid.Row="6" Grid.RowSpan="7" Grid.ColumnSpan="3">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="White">
+                </SolidColorBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label Name="textPageCaption" Grid.Row="2" Grid.Column="1" FontSize="16" FontWeight="Bold" Padding="0">Text ID 1621</Label>
+        <TextBlock Name="textPageDescription" Grid.Row="3" Grid.Column="1">Text ID 1622</TextBlock>
+        <GroupBox Header="Text ID 1623" Grid.Row="7" Grid.Column="1" Name="groupBoxGeneralSettings">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="26" />
+                    <RowDefinition Height="26" />
+                </Grid.RowDefinitions>
+                <Label Name="labelScreenWidth" Grid.Row="0" Grid.Column="0">Text ID 1624</Label>
+                <TextBox Name="textBoxScreenWidth" Grid.Row="0" Grid.Column="1" Background="AntiqueWhite"></TextBox>
+                <Label Name="labelScreenHeight" Grid.Row="1" Grid.Column="0">Text ID 1625</Label>
+                <TextBox Name="textBoxScreenHeight" Grid.Row="1" Grid.Column="1" Background="AntiqueWhite"></TextBox>
+            </Grid>
+        </GroupBox>
+        <Button Name="buttonSave" Grid.Row="9" Grid.Column="1" Width="100" HorizontalAlignment="Left" Click="buttonSave_Click">Text ID 1651</Button>
+        <Button Name="buttonCancel" Grid.Row="9" Grid.Column="1" Width="100" HorizontalAlignment="Right" Click="buttonCancel_Click">Text ID 1652</Button>
+    </Grid>
+</Window>

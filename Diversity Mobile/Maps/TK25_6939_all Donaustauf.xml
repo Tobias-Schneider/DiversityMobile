@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--Map-Image Options-->
+<ImageOptions>
+  <Name>TK25_6939_all Donaustauf</Name>
+  <Description>Image</Description>
+  <NWLat>49.10848985</NWLat>
+  <NWLong>12.15122223</NWLong>
+  <SELat>48.98967992</SELat> 
+  <SELong>12.34485626</SELong>
+  <SWLat>48.98967992</SWLat> 
+  <SWLong>12.15122223</SWLong>
+  <NELat>49.10848985</NELat>
+  <NELong>12.34485626</NELong>
+  <ZoomLevel />
+  <Transparency>255</Transparency>
+</ImageOptions>
+

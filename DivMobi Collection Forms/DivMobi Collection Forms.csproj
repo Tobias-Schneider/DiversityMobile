@@ -1,0 +1,484 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3074CF67-B378-43F0-B5E9-D99AE93B01A0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UBT.AI4.Bio.DivMobi.Forms</RootNamespace>
+    <AssemblyName>DivMobi Collection Forms</AssemblyName>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>PocketPC</PlatformFamilyName>
+    <PlatformID>b2c48bd2-963d-4549-9169-1fa021dce484</PlatformID>
+    <OSVersion>5.02</OSVersion>
+    <DeployDirSuffix>DivMobi_Collection_Forms</DeployDirSuffix>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <NativePlatformName>Windows Mobile 6 Professional SDK</NativePlatformName>
+    <FormFactorID>
+    </FormFactorID>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CustomMarshalers" />
+    <Reference Include="Interop.WMPLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\UserSyncGui\obj\x86\Debug\Interop.WMPLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ServiceModel.Channels.Mail" />
+    <Reference Include="Microsoft.ServiceModel.Channels.Mail.WindowsMobile" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.Windowsce.Forms" />
+    <Reference Include="Microsoft.WindowsMobile.DirectX" />
+    <Reference Include="mscorlib" />
+    <Reference Include="OpenNETCF, Version=2.3.0.39, Culture=neutral, PublicKeyToken=e60dbea84bb431b7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\VoiceRecording\OpenNETCF.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenNETCF.Drawing, Version=2.3.0.39, Culture=neutral, PublicKeyToken=e60dbea84bb431b7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\OpenNETCF.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Net.Irda" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ContextForms\ContextForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContextForms\ContextForm.Designer.cs">
+      <DependentUpon>ContextForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContextForms\SpecimenEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContextForms\SpecimenEditForm.Designer.cs">
+      <DependentUpon>SpecimenEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialogBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogBase.Designer.cs">
+      <DependentUpon>DialogBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\NewAgentDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\NewAgentDialog.Designer.cs">
+      <DependentUpon>NewAgentDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\NewAnalysisDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\NewAnalysisDialog.Designer.cs">
+      <DependentUpon>NewAnalysisDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\EventSeriesDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\EventSeriesDialog.Designer.cs">
+      <DependentUpon>EventSeriesDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\NewEventDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\NewEventDialog.Designer.cs">
+      <DependentUpon>NewEventDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\NewIdentificationUnitDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\NewIdentificationUnitDialog.Designer.cs">
+      <DependentUpon>NewIdentificationUnitDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\NewSitePropertyDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\NewSitePropertyDialog.Designer.cs">
+      <DependentUpon>NewSitePropertyDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\PropertyNamesSearchDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\PropertyNamesSearchDialog.Designer.cs">
+      <DependentUpon>PropertyNamesSearchDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\SelectLocalisationSystemDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\SelectLocalisationSystemDialog.Designer.cs">
+      <DependentUpon>SelectLocalisationSystemDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\TaxonInputDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\TaxonInputDialog.Designer.cs">
+      <DependentUpon>TaxonInputDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\TaxonInputDialog2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\TaxonInputDialog2.Designer.cs">
+      <DependentUpon>TaxonInputDialog2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\TextInputDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\TextInputDialog.Designer.cs">
+      <DependentUpon>TextInputDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\TextInputDialog2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\TextInputDialog2.Designer.cs">
+      <DependentUpon>TextInputDialog2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\UserProfileDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\UserProfileDialog.Designer.cs">
+      <DependentUpon>UserProfileDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\ResponsibleDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ResponsibleDialog.Designer.cs">
+      <DependentUpon>ResponsibleDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\SelectDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\SelectDialog.Designer.cs">
+      <DependentUpon>SelectDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\SelectUserProfileDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\SelectUserProfileDialog.Designer.cs">
+      <DependentUpon>SelectUserProfileDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContextForms\AgentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContextForms\AgentForm.Designer.cs">
+      <DependentUpon>AgentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContextForms\CollectionEventForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContextForms\CollectionEventForm.Designer.cs">
+      <DependentUpon>CollectionEventForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContextForms\LocalisationDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContextForms\LocalisationDetailForm.Designer.cs">
+      <DependentUpon>LocalisationDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContextForms\EventPropertyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContextForms\EventPropertyForm.Designer.cs">
+      <DependentUpon>EventPropertyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContextForms\IdentificationUnitAnalysisForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContextForms\IdentificationUnitAnalysisForm.Designer.cs">
+      <DependentUpon>IdentificationUnitAnalysisForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContextForms\IdentificationUnitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContextForms\IdentificationUnitForm.Designer.cs">
+      <DependentUpon>IdentificationUnitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AudioForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AudioForm.Designer.cs">
+      <DependentUpon>AudioForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EditContextForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EditContextForm.Designer.cs">
+      <DependentUpon>EditContextForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ImageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ImageForm.Designer.cs">
+      <DependentUpon>ImageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\NewGPSLocalisationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\NewGPSLocalisationForm.Designer.cs">
+      <DependentUpon>NewGPSLocalisationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SelectMapForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SelectMapForm.Designer.cs">
+      <DependentUpon>SelectMapForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\QuickForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\QuickForm.Designer.cs">
+      <DependentUpon>QuickForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RecordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RecordForm.Designer.cs">
+      <DependentUpon>RecordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SearchForm.Designer.cs">
+      <DependentUpon>SearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ShowMapForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ShowMapForm.Designer.cs">
+      <DependentUpon>ShowMapForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DirectPlayForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DirectPlayForm.Designer.cs">
+      <DependentUpon>DirectPlayForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ContextForms\ContextForm.resx">
+      <DependentUpon>ContextForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContextForms\SpecimenEditForm.resx">
+      <DependentUpon>SpecimenEditForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogBase.resx">
+      <DependentUpon>DialogBase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\NewAgentDialog.resx">
+      <DependentUpon>NewAgentDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\NewAnalysisDialog.resx">
+      <DependentUpon>NewAnalysisDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\EventSeriesDialog.resx">
+      <DependentUpon>EventSeriesDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\NewEventDialog.resx">
+      <DependentUpon>NewEventDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\NewIdentificationUnitDialog.resx">
+      <DependentUpon>NewIdentificationUnitDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\NewSitePropertyDialog.resx">
+      <DependentUpon>NewSitePropertyDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\PropertyNamesSearchDialog.resx">
+      <DependentUpon>PropertyNamesSearchDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\SelectLocalisationSystemDialog.resx">
+      <DependentUpon>SelectLocalisationSystemDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\TaxonInputDialog.resx">
+      <DependentUpon>TaxonInputDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\TaxonInputDialog2.resx">
+      <DependentUpon>TaxonInputDialog2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\TextInputDialog.resx">
+      <DependentUpon>TextInputDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\TextInputDialog2.resx">
+      <DependentUpon>TextInputDialog2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\UserProfileDialog.resx">
+      <DependentUpon>UserProfileDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ResponsibleDialog.resx">
+      <DependentUpon>ResponsibleDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\SelectDialog.resx">
+      <DependentUpon>SelectDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\SelectUserProfileDialog.resx">
+      <DependentUpon>SelectUserProfileDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContextForms\AgentForm.resx">
+      <DependentUpon>AgentForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContextForms\CollectionEventForm.resx">
+      <DependentUpon>CollectionEventForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContextForms\LocalisationDetailForm.resx">
+      <DependentUpon>LocalisationDetailForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContextForms\EventPropertyForm.resx">
+      <DependentUpon>EventPropertyForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContextForms\IdentificationUnitAnalysisForm.resx">
+      <DependentUpon>IdentificationUnitAnalysisForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContextForms\IdentificationUnitForm.resx">
+      <DependentUpon>IdentificationUnitForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AudioForm.resx">
+      <DependentUpon>AudioForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EditContextForm.resx">
+      <DependentUpon>EditContextForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ImageForm.resx">
+      <DependentUpon>ImageForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\NewGPSLocalisationForm.resx">
+      <DependentUpon>NewGPSLocalisationForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SelectMapForm.resx">
+      <DependentUpon>SelectMapForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\QuickForm.resx">
+      <DependentUpon>QuickForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RecordForm.resx">
+      <DependentUpon>RecordForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SearchForm.resx">
+      <DependentUpon>SearchForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ShowMapForm.resx">
+      <DependentUpon>ShowMapForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DirectPlayForm.resx">
+      <DependentUpon>DirectPlayForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Diversity Mobile Ressource\Diversity Mobile Ressource.csproj">
+      <Project>{1D5F293A-4B43-473E-B765-EF3FDABD4D5D}</Project>
+      <Name>Diversity Mobile Ressource</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DivMobi Collection Data Layer\DivMobi Collection Data Layer.csproj">
+      <Project>{A82D866C-F000-4EF7-AB47-A8B17BFCD0DA}</Project>
+      <Name>DivMobi Collection Data Layer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DivMobi Collection DataManagement\DivMobi Collection DataManagement.csproj">
+      <Project>{3ED04E9B-708D-4161-88E9-9DFB0647CADB}</Project>
+      <Name>DivMobi Collection DataManagement</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DivMobi DatabaseConnector\DivMobi DatabaseConnector.csproj">
+      <Project>{75FDDB0D-66F7-4023-8475-5FCDFF61DBB3}</Project>
+      <Name>DivMobi DatabaseConnector</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DivMobi UMF\DivMobi UMF.csproj">
+      <Project>{C6411052-C56E-4E8E-B8B0-C4CDA7F9624D}</Project>
+      <Name>DivMobi UMF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UBT AI4 Toolbox\UBT AI4 Toolbox.csproj">
+      <Project>{D6465A2E-702B-47F4-AB8C-CB745CF78740}</Project>
+      <Name>UBT AI4 Toolbox</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

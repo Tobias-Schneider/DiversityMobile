@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Map-Image Options-->
+<ImageOptions>
+  <Name>TestMapGross</Name>
+  <Description />
+  <SWLat>48,999</SWLat>
+  <SWLong>12,1652</SWLong>
+  <SELat>48,999</SELat>
+  <SELong>12,24855</SELong>
+  <NELat>49,049</NELat>
+  <NELong>12,24855</NELong>
+  <ZoomLevel>0</ZoomLevel>
+</ImageOptions>

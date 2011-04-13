@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Map-Image Options-->
+<ImageOptions>
+  <Name>WenatcheeForest</Name>
+  <Description />
+  <SWLat>46,90149</SWLat>
+  <SWLong>-121,8768</SWLong>
+<SELat>46,90149</SELat>
+  <SELong>-120,119</SELong>
+  <NELat>48,08909</NELat>
+  <NELong>-120,119</NELong>
+  <ZoomLevel>8</ZoomLevel>
+</ImageOptions>

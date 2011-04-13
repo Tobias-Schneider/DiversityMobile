@@ -1,0 +1,73 @@
+﻿<Window x:Class="Diversity_Synchronization_Gui.Options.MapSaveOptionsWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Text ID 1501" Width="500" Topmost="True" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" SizeToContent="Height">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="15" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="15" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25" />
+            <RowDefinition Height="10" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="34" />
+            <RowDefinition Height="10" />
+            <RowDefinition Height="2" />
+            <RowDefinition Height="15" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="15" />
+            <RowDefinition Height="25" />
+            <RowDefinition Height="15" />
+        </Grid.RowDefinitions>
+        <Menu Name="menuBar" Grid.ColumnSpan="3">
+            <MenuItem Name="menuItemMenu" Header="Text ID 1502">
+                <MenuItem Name="menuItemSaveAndClose" Header="Text ID 1503" Click="menuItemSaveAndClose_Click"/>
+                <MenuItem Name="menuItemCancel" Header="Text ID 1504" Click="menuItemCancel_Click"/>
+            </MenuItem>
+            <MenuItem Name="menuItemHelp" Header="Text ID 1505" IsEnabled="False" Click="menuItemHelp_Click">
+            </MenuItem>
+        </Menu>
+        <Rectangle Grid.Row="1" Grid.RowSpan="4" Grid.ColumnSpan="3">
+            <Rectangle.Fill>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop Offset="0" Color="#ffcc99"></GradientStop>
+                    <GradientStop Offset="1" Color="#ffb272"></GradientStop>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Grid.Row="5" Grid.ColumnSpan="3">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="Black">
+                </SolidColorBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Grid.Row="6" Grid.RowSpan="7" Grid.ColumnSpan="3">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="White">
+                </SolidColorBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label Name="textPageCaption" Grid.Row="2" Grid.Column="1" FontSize="16" FontWeight="Bold" Padding="0">Text ID 1521</Label>
+        <TextBlock Name="textPageDescription" Grid.Row="3" Grid.Column="1">Text ID 1522</TextBlock>
+        <GroupBox Header="Text ID 1523" Grid.Row="7" Grid.Column="1" Name="groupBoxGeneralSettings">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="26" />
+                    <!--RowDefinition Height="26" /-->
+                </Grid.RowDefinitions>
+                <Label Name="labelUseDeviceDimensions" Grid.Row="0" Grid.Column="0">Text ID 1524</Label>
+                <CheckBox Grid.Row="0" Grid.Column="1" Margin="2,6,2,0" Name="checkBoxUseDeviceDimensions" HorizontalAlignment="Left" Background="AntiqueWhite">Text ID 1525</CheckBox>
+                <Label Name="labelSaveToDevice" Grid.Row="1" Grid.Column="0" Visibility="Hidden">Text ID 1526</Label>
+                <CheckBox Grid.Row="1" Grid.Column="1" Margin="2,6,2,0" Name="checkBoxSaveToDevice" HorizontalAlignment="Left" Background="AntiqueWhite" Visibility="Hidden">Text ID 1527</CheckBox>
+            </Grid>
+        </GroupBox>
+        <Button Name="buttonSave" Grid.Row="9" Grid.Column="1" Width="100" HorizontalAlignment="Left" Click="buttonSave_Click">Text ID 1551</Button>
+        <Button Name="buttonCancel" Grid.Row="9" Grid.Column="1" Width="100" HorizontalAlignment="Right" Click="buttonCancel_Click">Text ID 1552</Button>
+    </Grid>
+</Window>

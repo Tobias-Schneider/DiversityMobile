@@ -1,0 +1,95 @@
+﻿<Window x:Class="Diversity_Synchronization_Gui.Options.RepositoryOptionsWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Text ID 501" ResizeMode="NoResize" Width="500" WindowStartupLocation="CenterScreen" Topmost="True" ShowInTaskbar="True" WindowStyle="SingleBorderWindow" SizeToContent="Height">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="15" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="15" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25" />
+            <RowDefinition Height="10" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="34" />
+            <RowDefinition Height="10" />
+            <RowDefinition Height="2" />
+            <RowDefinition Height="15" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="15" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="15" />
+            <RowDefinition Height="25" />
+            <RowDefinition Height="15" />
+        </Grid.RowDefinitions>
+        <Menu Name="menuBar" Grid.ColumnSpan="3">
+            <MenuItem Name="menuItemMenu" Header="Text ID 502">
+                <MenuItem Name="menuItemSaveAndClose" Header="Text ID 503" Click="menuItemSaveAndClose_Click"/>
+                <MenuItem Name="menuItemCancel" Header="Text ID 504" Click="menuItemCancel_Click"/>
+            </MenuItem>
+            <MenuItem Name="menuItemHelp" Header="Text ID 505" Click="menuItemHelp_Click" />
+        </Menu>
+        <Rectangle Grid.Row="1" Grid.RowSpan="4" Grid.ColumnSpan="3">
+            <Rectangle.Fill>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop Offset="0" Color="#ffcc99"></GradientStop>
+                    <GradientStop Offset="1" Color="#ffb272"></GradientStop>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Grid.Row="5" Grid.ColumnSpan="3">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="Black">
+                </SolidColorBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Grid.Row="6" Grid.RowSpan="7" Grid.ColumnSpan="3">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="White">
+                </SolidColorBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label Name="textPageCaption" Grid.Row="2" Grid.Column="1" FontSize="16" FontWeight="Bold" Padding="0">Text ID 521</Label>
+        <TextBlock Name="textPageDescription" Grid.Row="3" Grid.Column="1">Text ID 522</TextBlock>
+        <GroupBox Grid.Row="7" Grid.Column="1" Header="Text ID 523" Name="groupBoxLogin">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+                <Label Name="labelAuthentification" Grid.Column="0" VerticalAlignment="Center" Grid.ColumnSpan="3" Height="25.96">Text ID 524</Label>
+                <RadioButton Name="radioButtonSQL" Grid.Column="1" VerticalAlignment="Center">Text ID 525</RadioButton>
+                <RadioButton Name="radioButtonWindows" Grid.Column="2" VerticalAlignment="Center">Text ID 526</RadioButton>
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="Text ID 527" Grid.Row="9" Grid.Column="1" Name="groupBoxConnection">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="26" />
+                    <RowDefinition Height="26" />
+                    <RowDefinition Height="26" />
+                    <RowDefinition Height="26" />
+                    <RowDefinition Height="26" />
+                </Grid.RowDefinitions>
+                <Label Name="labelName" Grid.Row="0" Grid.Column="0">Text ID 528</Label>
+                <ComboBox Name="comboBoxConnectionName" Grid.Row="0" Grid.Column="1" Margin="2,0,0,0" IsEditable="True" Background="AntiqueWhite" />
+                <Label Name="labelIPAddress" Grid.Row="1" Grid.Column="0">Text ID 529:</Label>
+                <TextBox Name="textBoxIPAddress" Margin="2,0,0,0" Grid.Row="1" Grid.Column="1" Background="AntiqueWhite" />
+                <Label Name="labelIPPort" Grid.Row="2" Grid.Column="0">Text ID 530</Label>
+                <TextBox Name="textBoxIPPort" Grid.Row="2" Grid.Column="1" Margin="2,0,0,0" Background="AntiqueWhite" />
+                <Label Name="labelCatalog" Grid.Row="3" Grid.Column="0">Text ID 531</Label>
+                <ComboBox Name="comboBoxCatalog" Grid.Row="3" Grid.Column="1" Margin="2,0,0,0" IsEditable="True" Background="AntiqueWhite" />
+                <Label Name="labelTaxonCatalog" Grid.Row="4" Grid.Column="0">Text ID 532</Label>
+                <ComboBox Name="comboBoxTaxonCatalog" Grid.Row="4" Grid.Column="1" Margin="2,0,0,0" IsEditable="True" Background="AntiqueWhite" />
+                </Grid>
+            </GroupBox>
+        <Button Name="buttonSave" Grid.Row="11" Grid.Column="1" Width="100" HorizontalAlignment="Left" Click="buttonSave_Click">Text ID 551</Button>
+        <Button Name="buttonCancel" Grid.Row="11" Grid.Column="1" Width="100" HorizontalAlignment="Right" Click="buttonCancel_Click">Text ID 552</Button>
+    </Grid>
+</Window>

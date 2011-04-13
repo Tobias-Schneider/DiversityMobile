@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--Map-Image Options-->
+<ImageOptions>
+  <Name>Munich</Name>
+  <Description />
+  <SWLat>48,14547</SWLat>
+  <SWLong>11,47316</SWLong>
+  <NELat>48,18211</NELat>
+  <NELong>11,52809</NELong>
+  <ZoomLevel>13</ZoomLevel>
+</ImageOptions>

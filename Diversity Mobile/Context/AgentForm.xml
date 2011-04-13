@@ -1,0 +1,46 @@
+<Context ContextId="AgentForm">
+<!-- Start Configure AgentForm -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.ContextForms.AgentForm, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelCollectorsNameCaption">
+        <Action ActionId="SetTextAction" Parameter="Sammler:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelNumberCaption">
+        <Action ActionId="SetTextAction" Parameter="Sammel nummer:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelNotes">
+        <Action ActionId="SetTextAction" Parameter="Notiz:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonChangeName">
+        <Action ActionId="SetTextAction" Parameter="Ändern" />
+      </FieldDescriptor>
+
+	<FieldDescriptor FieldName="labelCollectorsNameCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxCollectorsName">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="buttonChangeName">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      
+      <FieldDescriptor FieldName="labelNumberCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxNumber">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelNotes">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxNotes">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      
+    </ClassConfiguration>
+    <!-- End Configure AgentForm -->
+</Context>

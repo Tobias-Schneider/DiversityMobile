@@ -1,0 +1,63 @@
+﻿<pages:DiversityPage x:Class="Diversity_Synchronization_Gui.Pages.ActionPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:pages="clr-namespace:Diversity_Synchronization_Gui.Pages"
+    xmlns:divsync="clr-namespace:Diversity_Synchronization;assembly=DiversitySynchronization"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="ActionPage"
+      DataContext="{StaticResource ModelRoot}"
+                     Loaded="DiversityPage_Loaded" >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="20" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <GroupBox Header="Text ID 1123" Name="groupBoxGeneralActions" VerticalAlignment="Top">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0"/>
+                    <RowDefinition Height="28"/>
+                    <RowDefinition Height="28"/>
+                    <RowDefinition Height="28"/>
+                    <RowDefinition Height="28"/>
+                    <RowDefinition Height="28"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+                          
+                
+                <Button Name="buttonGetTaxonDefinitions" Grid.Row="1" Click="buttonGetTaxonDefinitions_Click"
+                        IsEnabled="{Binding State,Converter={StaticResource CheckForFlagsConverter}, ConverterParameter=TaxonConnected}" Height="26" VerticalAlignment="Top">Text ID 1125</Button>
+                <Label Name="labelGetTaxonDefinitionsState" Grid.Row="1" Grid.Column="1" FontWeight="Bold" Foreground="Green" Visibility="Hidden">Text ID 1129</Label>
+                <Button Name="buttonDownloadProperties" Margin="0,0,0,2" Grid.Row="2" Grid.Column="0" Click="buttonDownloadProperties_Click">Text ID 1126</Button>
+                <Button Name="buttonDownloadPrimaryData" Margin="0,0,0,2" Grid.Row="3" Grid.Column="0" Click="buttonDownloadPrimaryData_Click">Text ID 1126</Button>
+                <Label Name="labelDownloadPrimaryDataState" Grid.Row="3" Grid.Column="1" FontWeight="Bold" Foreground="Green" Visibility="Hidden">Text ID 1129</Label>
+                <Button Name="buttonUploadData" Margin="0,0,0,2" Grid.Row="4" Grid.Column="0" Click="buttonUploadData_Click">Text ID 1127</Button>
+                <Label Name="labelUploadDataState" Grid.Row="4" Grid.Column="1" FontWeight="Bold" Foreground="Green" Visibility="Hidden">Text ID 1129</Label>
+                <Button Name="buttonCleanData" Margin="0,0,0,2" Grid.Row="5" Grid.Column="0" Click="buttonCleanData_Click">Text ID 1128</Button>
+                <Label Name="labelCleanDataState" Grid.Row="5" Grid.Column="1" FontWeight="Bold" Foreground="Green" Visibility="Hidden">Text ID 1129</Label>
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="Text ID 1130" Name="groupBoxMaps" Grid.Row="0" Grid.Column="2" VerticalAlignment="Top">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="28"/>
+                    <RowDefinition Height="28"/>
+                    <RowDefinition Height="28"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+                <Button Name="buttonGoogleMaps" Margin="0,0,0,2" Grid.Row="0" Grid.Column="0" Click="buttonGoogleMaps_Click" IsEnabled="True" >Text ID 1131</Button>
+                <Label Name="labelGoogleMapsState" Grid.Row="0" Grid.Column="1" FontWeight="Bold" Foreground="Green" Visibility="Hidden">Text ID 1129</Label>
+                <Button Name="buttonSNSBRequest" Margin="0,0,0,2" Grid.Row="1" Grid.Column="0" Click="buttonSNSBRequest_Click" IsEnabled="False" Visibility="Collapsed">Text ID 1132</Button>
+                <Label Name="labelSNSBRequestState" Grid.Row="1" Grid.Column="1" FontWeight="Bold" Foreground="Green" Visibility="Collapsed">Text ID 1129</Label>
+                <Button Name="buttonSNSBDownload" Margin="0,0,0,2" Grid.Row="2" Grid.Column="0" Click="buttonSNSBDownload_Click" IsEnabled="False" Visibility="Collapsed">Text ID 1133</Button>
+                <Label Name="labelSNSBDownloadState" Grid.Row="2" Grid.Column="1" FontWeight="Bold" Foreground="Green" Visibility="Collapsed">Text ID 1129</Label>
+            </Grid>
+        </GroupBox>
+    </Grid>
+</pages:DiversityPage>

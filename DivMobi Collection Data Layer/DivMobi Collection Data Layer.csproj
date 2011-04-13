@@ -1,0 +1,123 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A82D866C-F000-4EF7-AB47-A8B17BFCD0DA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UBT.AI4.Bio.DivMobi.DataLayer</RootNamespace>
+    <AssemblyName>DivMobi Collection Data Layer</AssemblyName>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>PocketPC</PlatformFamilyName>
+    <PlatformID>b2c48bd2-963d-4549-9169-1fa021dce484</PlatformID>
+    <OSVersion>5.02</OSVersion>
+    <DeployDirSuffix>DivMobi_Collection_Data_Layer</DeployDirSuffix>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <NativePlatformName>Windows Mobile 6 Professional SDK</NativePlatformName>
+    <FormFactorID>
+    </FormFactorID>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlClient, Version=3.0.3600.0, Culture=neutral, PublicKeyToken=3be235df1c8d2ad3, processorArchitecture=MSIL" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.0.0, Culture=neutral, PublicKeyToken=3be235df1c8d2ad3, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataItems\Analysis.cs" />
+    <Compile Include="DataItems\AnalysisResult.cs" />
+    <Compile Include="DataItems\AnalysisTaxonomicGroup.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataItems\CollCircumstances_Enum.cs" />
+    <Compile Include="DataItems\CollectionAgent.cs" />
+    <Compile Include="DataItems\CollectionEvent.cs" />
+    <Compile Include="DataItems\CollectionEventImage.cs" />
+    <Compile Include="DataItems\CollectionEventLocalisation.cs" />
+    <Compile Include="DataItems\CollectionEventProperty.cs" />
+    <Compile Include="DataItems\CollectionEventSeries.cs" />
+    <Compile Include="DataItems\CollectionProject.cs" />
+    <Compile Include="DataItems\CollectionSpecimen.cs" />
+    <Compile Include="DataItems\CollectionSpecimenImage.cs" />
+    <Compile Include="DataItems\CollEventImageType_Enum.cs" />
+    <Compile Include="DataItems\CollIdentificationCategory_Enum.cs" />
+    <Compile Include="DataItems\CollIdentificationQualifier_Enum.cs" />
+    <Compile Include="DataItems\CollSpecimenImageType_Enum.cs" />
+    <Compile Include="DataItems\CollTaxonomicGroup_Enum.cs" />
+    <Compile Include="DataItems\CollTypeStatus_Enum.cs" />
+    <Compile Include="DataItems\CollUnitRelationType_Enum.cs" />
+    <Compile Include="DataItems\ExpandLevel.cs" />
+    <Compile Include="DataItems\Identification.cs" />
+    <Compile Include="DataItems\IdentificationUnit.cs" />
+    <Compile Include="DataItems\IdentificationUnitAnalysis.cs" />
+    <Compile Include="DataItems\IdentificationUnitGeoAnalysis.cs" />
+    <Compile Include="DataItems\IdentSave.cs" />
+    <Compile Include="DataItems\LocalisationSystem.cs" />
+    <Compile Include="DataItems\Property.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataItems\PropertyNames.cs" />
+    <Compile Include="DataItems\SamplingPlots.cs" />
+    <Compile Include="DataItems\TaxonListsForUser.cs" />
+    <Compile Include="DataItems\TaxonNames.cs" />
+    <Compile Include="DataItems\UserProfile.cs" />
+    <Compile Include="DataItems\UserProxy.cs" />
+    <Compile Include="DataItems\UserTaxonomicGroupTable.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DivMobi DatabaseConnector\DivMobi DatabaseConnector.csproj">
+      <Project>{75FDDB0D-66F7-4023-8475-5FCDFF61DBB3}</Project>
+      <Name>DivMobi DatabaseConnector</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

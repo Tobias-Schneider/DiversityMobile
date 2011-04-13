@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3DFBAF8E-EB25-49FB-9CED-151A450844FE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UBT.AI4.Bio.DivMobi.DatabaseConnector2</RootNamespace>
+    <AssemblyName>DivMobi DatabaseConnector2</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attributes\AttributeException.cs" />
+    <Compile Include="Attributes\AttributeWorker.cs" />
+    <Compile Include="Attributes\ColumnAttribute.cs" />
+    <Compile Include="Attributes\DeleteTypes.cs" />
+    <Compile Include="Attributes\IDAttribute.cs" />
+    <Compile Include="Attributes\ManyToOneAttribute.cs" />
+    <Compile Include="Attributes\OneToManyAttribute.cs" />
+    <Compile Include="Attributes\OneToOneDefAttribute.cs" />
+    <Compile Include="Attributes\RelationalAttribute.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Restrictions\IRestriction.cs" />
+    <Compile Include="Restrictions\QueryGeneration\PlaceHolderComponent.cs" />
+    <Compile Include="Restrictions\QueryGeneration\QueryComponent.cs" />
+    <Compile Include="Restrictions\QueryGeneration\QueryGenerator.cs" />
+    <Compile Include="Restrictions\RestrictionException.cs" />
+    <Compile Include="Restrictions\RestrictionFactory.cs" />
+    <Compile Include="Restrictions\Restrictions\AndRestriction.cs" />
+    <Compile Include="Restrictions\Restrictions\BetweenRestriction.cs" />
+    <Compile Include="Restrictions\Restrictions\CompareRestriction.cs" />
+    <Compile Include="Restrictions\Restrictions\EqualRestriction.cs" />
+    <Compile Include="Restrictions\Restrictions\FunctionRestriction.cs" />
+    <Compile Include="Restrictions\Restrictions\GreaterThanRestriction.cs" />
+    <Compile Include="Restrictions\Restrictions\KeyRestriction.cs" />
+    <Compile Include="Restrictions\Restrictions\LessThanRestriction.cs" />
+    <Compile Include="Restrictions\Restrictions\LikeRestriction.cs" />
+    <Compile Include="Restrictions\Restrictions\LogicalRestrictriction.cs" />
+    <Compile Include="Restrictions\Restrictions\NotRestriction.cs" />
+    <Compile Include="Restrictions\Restrictions\OrRestriction.cs" />
+    <Compile Include="Restrictions\Restrictions\ParanthesisRestriction.cs" />
+    <Compile Include="Restrictions\Restrictions\SqlRestriction.cs" />
+    <Compile Include="Restrictions\Restrictions\TypeRestriction.cs" />
+    <Compile Include="Restrictions\QueryGeneration\SqlStringComponent.cs" />
+    <Compile Include="Serializer\Exceptions\DeleteException.cs" />
+    <Compile Include="Serializer\Exceptions\InsertException.cs" />
+    <Compile Include="Serializer\Exceptions\LoadException.cs" />
+    <Compile Include="Serializer\Exceptions\SerializerException.cs" />
+    <Compile Include="Serializer\Exceptions\UpdateException.cs" />
+    <Compile Include="Serializer\ISerializableObject.cs" />
+    <Compile Include="Serializer\Serializer\MS_SqlCeSerializer.cs" />
+    <Compile Include="Serializer\Serializer\MS_SqlServerIPSerializer.cs" />
+    <Compile Include="Serializer\Serializer\MS_SqlServerWASerializer.cs" />
+    <Compile Include="Serializer\Serializer\Serializer.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

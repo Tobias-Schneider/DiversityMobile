@@ -1,0 +1,96 @@
+﻿<Window x:Class="Diversity_Synchronization_Gui.FrameWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:divsync="clr-namespace:Diversity_Synchronization;assembly=DiversitySynchronization"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Text ID 201" MinWidth="700" MinHeight="600" Height="700" Width="900" WindowStartupLocation="CenterScreen" Closing="Window_Closing" Icon="DiversityWorkbench.ico" 
+        DataContext="{StaticResource ModelRoot}" Loaded="Window_Loaded" >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="15" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="15" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25" />
+            <RowDefinition Height="10" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="34" />
+            <RowDefinition Height="10" />
+            <RowDefinition Height="2" />
+            <RowDefinition Height="15" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="15" />
+            <RowDefinition Height="2" />
+            <RowDefinition Height="15" />
+            <RowDefinition Height="25" />
+            <RowDefinition Height="15" />
+        </Grid.RowDefinitions>
+        
+        <Menu Grid.ColumnSpan="4">
+            <MenuItem Name="menuItemProgram" Header="Text ID 202">
+                <MenuItem Name="menuItemExit" Header="Text ID 203" Click="MenuItemExit_Click" InputGestureText="Alt+F4"/>
+            </MenuItem>
+            <MenuItem Name="menuItemOptions" Header="Text ID 204">
+                <MenuItem Name="menuItemRepositoryOptions" Header="Text ID 205" Click="MenuItemRepositoryOptions_Click" IsEnabled="{Binding Path=State, Converter={StaticResource InvertedCheckForFlagsConverter}, ConverterParameter=ConnectedToRepository, Mode=OneWay}"/>
+                <MenuItem Name="menuItemActiveSyncOptions" Header="Text ID 206" Click="MenuItemActiveSyncOptions_Click" IsEnabled="{Binding Path=State, Converter={StaticResource InvertedCheckForFlagsConverter}, ConverterParameter=ConnectedToMobile, Mode=OneWay}" />
+                <Separator />       
+               
+                <MenuItem Name="menuItemProgramOptions" Header="Text ID 209" Click="MenuItemProgramOptions_Click"/>
+            </MenuItem>
+            
+            <MenuItem Name="menuItemAbout" Header="Text ID 211" Click="MenuItemAbout_Click">
+            </MenuItem>
+        </Menu>
+        <Rectangle Grid.Row="1" Grid.ColumnSpan="4" Margin="0,0,0,1" Grid.RowSpan="5">
+            <Rectangle.Fill>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop Offset="0" Color="#ffcc99"></GradientStop>
+                    <GradientStop Offset="0.4" Color="#ffb272"></GradientStop>
+                    <GradientStop Offset="1" Color="#ffffff"></GradientStop>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Grid.Row="5" Grid.ColumnSpan="2" Grid.RowSpan="2">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="Black">
+                </SolidColorBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Grid.Row="5" Grid.Column="3" Grid.RowSpan="2">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="Black">
+                </SolidColorBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Grid.Row="6" Grid.ColumnSpan="4" Grid.RowSpan="4">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="White">
+                </SolidColorBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Grid.Row="9" Grid.ColumnSpan="4" Grid.RowSpan="2">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="Black">
+                </SolidColorBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Grid.Row="10" Grid.ColumnSpan="4" Grid.RowSpan="3">
+            <Rectangle.Fill>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop Offset="0" Color="#ffcc99"></GradientStop>
+                    <GradientStop Offset="1" Color="#ffb272"></GradientStop>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label Name="textPageCaption" Grid.Row="2" Grid.Column="1" FontSize="16" FontWeight="Bold" Padding="0">Text ID x41</Label>
+        <TextBlock Name="textPageDescription" Grid.Row="3" Grid.Column="1" TextWrapping="Wrap">Text ID x42</TextBlock>
+        
+        <Frame Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="2" Name="frameContent" NavigationUIVisibility="Hidden" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" />
+        <Grid Grid.Column="1" Grid.Row="11" Grid.ColumnSpan="2">
+            <Button Name="buttonNavigationBack" Width="150" Click="buttonNavigationBack_Click" HorizontalAlignment="Left" TabIndex="2">Text ID x51</Button>
+            <Button Name="buttonNavigationNext" Width="150" Click="ButtonNavigationNext_Click" HorizontalAlignment="Right" TabIndex="1">Text ID x52</Button>
+        </Grid>
+        <Image Grid.Row="1" Grid.Column="2" Name="imageLogo" Stretch="Uniform" Source="LoseImages\framewindow_logo.png" VerticalAlignment="Top" Grid.RowSpan="7" Margin="0,10,2,0" Height="82.727" />
+    </Grid>
+</Window>

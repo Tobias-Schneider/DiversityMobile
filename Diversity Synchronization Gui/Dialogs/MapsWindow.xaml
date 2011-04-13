@@ -1,0 +1,130 @@
+﻿<Window x:Class="Diversity_Synchronization_Gui.MapsWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Text ID 1401" Width="Auto" Height="Auto">
+    <Window.Resources>
+        <!--The tool tip for the TextBox to display the validation error message.-->
+        <Style x:Key="textBoxInError" TargetType="TextBox">
+            <Style.Triggers>
+                <Trigger Property="Validation.HasError" Value="true">
+                    <Setter Property="ToolTip"
+                            Value="{Binding RelativeSource={x:Static RelativeSource.Self},
+                        Path=(Validation.Errors)[0].ErrorContent}"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="15" />
+            <ColumnDefinition Width="250" />
+            <ColumnDefinition Width="20" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="15" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25" />
+            <RowDefinition Height="10" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="34" />
+            <RowDefinition Height="10" />
+            <RowDefinition Height="2" />
+            <RowDefinition Height="15" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="15" />
+        </Grid.RowDefinitions>
+
+        <Menu Name="menuBar" Grid.ColumnSpan="5">
+            <MenuItem Name="menuItemMenu" Header="Text ID 1402">
+                <MenuItem Name="menuItemClose" Header="Text ID 1403" Click="menuItemClose_Click" />
+            </MenuItem>            
+            <MenuItem Name="menuItemHelp" Header="Text ID 1408" Click="menuItemHelp_Click"/>
+        </Menu>
+        <Rectangle Grid.Row="1" Grid.RowSpan="4" Grid.ColumnSpan="5">
+            <Rectangle.Fill>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop Offset="0" Color="#ffcc99"></GradientStop>
+                    <GradientStop Offset="1" Color="#ffb272"></GradientStop>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Grid.Row="5" Grid.ColumnSpan="5">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="Black">
+                </SolidColorBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Grid.Row="6" Grid.ColumnSpan="5" Grid.RowSpan="3">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="White">
+                </SolidColorBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label Name="textPageCaption" FontSize="16" FontWeight="Bold" Padding="0" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="3">Text ID 1421</Label>
+        <StackPanel Grid.Row="7" Grid.Column="1">
+            <GroupBox Header="Text ID 1423" Name="groupBoxPosition" VerticalAlignment="Top">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100" />
+                        <ColumnDefinition Width="1*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="26" />
+                        <RowDefinition Height="26" />
+                        <RowDefinition Height="10" />
+                        <RowDefinition Height="25" />
+                        <RowDefinition Height="5" />
+                        <RowDefinition Height="25" />
+                    </Grid.RowDefinitions>
+                    <Label Name="labelLongitude" Grid.Row="0" Grid.Column="0">Text ID 1424</Label>
+                    <TextBox Name="textBoxLongitude" VerticalAlignment="Top" Grid.Row="0"  Grid.Column="1" Background="AntiqueWhite" />
+                    <Label Name="labelLatitude" Grid.Row="1" Grid.Column="0">Text ID 1425</Label>
+                    <TextBox Name="textBoxLatitude" VerticalAlignment="Top" Grid.Row="1" Grid.Column="1" Background="AntiqueWhite" />
+                    <Button Grid.Row="3" Grid.Column="1" Name="buttonGetFromMap" Width="100" HorizontalAlignment="Right" Click="buttonGetFromMap_Click">Text ID 1426</Button>
+                    <Button Name="buttonShowMap" Grid.Row="5" Grid.Column="1" Width="100" HorizontalAlignment="Right" Click="buttonShowMap_Click">Text ID 1427</Button>
+                </Grid>
+            </GroupBox>
+            <GroupBox Name="groupBoxDeviceSizes" > 
+                <GroupBox.Header>
+                    <CheckBox Name="checkBoxDeviceSize" Checked="checkBoxDeviceSize_Checked"></CheckBox>
+                </GroupBox.Header>
+                <Grid IsEnabled="{Binding ElementName=checkBoxDeviceSize, Path=IsChecked }">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="26"/>
+                        <RowDefinition Height="26"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Name="labelDeviceHeight" Grid.Row="0" Grid.Column="0">Height</Label>
+                    <TextBox Name="textDeviceHeight" Grid.Row="0" Grid.Column="1" Background="AntiqueWhite" Text="{Binding DeviceHeight, ValidatesOnDataErrors=True, ValidatesOnExceptions=True, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource textBoxInError}"/>
+                    <Label Name="labelDeviceWidth" Grid.Row="1" Grid.Column="0">Width</Label>
+                    <TextBox Name="textDeviceWidth" Grid.Row="1" Grid.Column="1" Background="AntiqueWhite" Text="{Binding DeviceWidth, ValidatesOnDataErrors=True, ValidatesOnExceptions=True, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource textBoxInError}"/>
+                </Grid>                
+            </GroupBox>
+            <GroupBox Grid.Row="8" Header="Text ID 1438" Name="groupBoxFile" VerticalAlignment="Bottom" Grid.Column="1" Grid.ColumnSpan="3">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="26"/>
+                        <RowDefinition Height="26"/>
+                        <RowDefinition Height="26"/>
+                        <RowDefinition Height="15"/>
+                        <RowDefinition Height="26"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Name="labelFile" Grid.Row="0" Grid.Column="0">Text ID 1439</Label>
+                    <TextBox Name="textBoxFile" Grid.Row="0" Grid.Column="1" Background="AntiqueWhite" Text="{Binding MapInfo.Name, ValidatesOnDataErrors=True, ValidatesOnExceptions=True, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource textBoxInError}"/>
+                    <Label Name="labelDescription" Grid.Row="1" Grid.Column="0">Text ID 1440</Label>
+                    <TextBox Name="textBoxDescription" Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" Background="AntiqueWhite" Text="{Binding MapInfo.Description}" />
+                    <Button Name="buttonSave" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Right" Width="100" Click="buttonSave_Click" IsEnabled="True">Text ID 1441</Button>
+                </Grid>
+            </GroupBox>
+        </StackPanel>
+        <WebBrowser Grid.Row="7" Name="webbrowserMap" Grid.Column="3" AllowDrop="False" MinHeight="200" MinWidth="200" />
+        <Image Grid.Row="7" Name="imageMap" Stretch="Fill" Grid.Column="3" Visibility="Collapsed" />
+    </Grid>
+</Window>

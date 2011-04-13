@@ -1,0 +1,21 @@
+﻿<pages:DiversityPage x:Class="Diversity_Synchronization_Gui.Pages.SelectionPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:pages="clr-namespace:Diversity_Synchronization_Gui.Pages"
+    xmlns:divsync="clr-namespace:Diversity_Synchronization;assembly=DiversitySynchronization"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Loaded="DiversityPage_Loaded">
+    <Grid DataContext="{StaticResource ModelRoot}" >
+        
+        <GroupBox Header="Text ID 1323" Name="groupBoxSelection" Grid.Row="0" Grid.Column="0" >
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <ListBox Name="listBoxSelection" Grid.Row="0" Grid.Column="0" Background="AntiqueWhite" />
+                <Grid Grid.Column="2" x:Name="containerTreeviewFinalSelection"/>
+            </Grid>
+        </GroupBox>
+    </Grid>
+</pages:DiversityPage>

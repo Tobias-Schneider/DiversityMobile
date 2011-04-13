@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Map-Image Options-->
+<ImageOptions>
+  <Name>MintGrove</Name>
+  <Description />
+  <SWLat>47,52601</SWLat>
+  <SWLong>-122,1096</SWLong>
+<SELat>47,52601</SELat>
+  <SELong>-121,8899</SELong>
+  <NELat>47,67417</NELat>
+  <NELong>-121,8899</NELong>
+  <ZoomLevel>11</ZoomLevel>
+</ImageOptions>

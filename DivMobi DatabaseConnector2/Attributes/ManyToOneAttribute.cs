@@ -1,0 +1,12 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace UBT.AI4.Bio.DivMobi.DatabaseConnector2.Attributes
+{
+    [AttributeUsage(AttributeTargets.Field, AllowMultiple = true)]
+    public class ManyToOneAttribute:RelationalAttribute
+    {
+    }
+}

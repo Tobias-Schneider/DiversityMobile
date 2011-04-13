@@ -1,0 +1,24 @@
+### Jazz Ignore 0
+# Der Standardwert für core.ignore.recursive ist *.class.
+#  Eine Änderung dieses Werts ändert das Check-in-Verhalten für das gesamte Projekt. 
+#
+# Der Standardwert für core.ignore ist bin.
+# Eine Änderung dieses Werts ändert das Check-in-Verhalten für das lokale Verzeichnis.
+#
+# Eigenschaften für Ignorierungen müssen eine durch Leerzeichen getrennte Liste von Dateinamensmustern enthalten.
+# Jedes Muster beachtet die Groß-/Kleinschreibung muss beachtet werden und wird in geschweifte Klammern ('{' und '}') gesetzt. 
+# "*" entspricht keinem oder mehreren Zeichen, "?" entspricht einem Einzelzeichen. 
+#
+#   Beispiel: {*.sh} {\.*}    Ignoriert Shell-Scripts und verdeckte Dateien
+
+# HINWEIS: Die Änderung von Ignorierungsdateien ändert nicht den 
+# Ignorierungsstatus von abgeleiteten Ressourcen.
+
+core.ignore.recursive= \
+	{*.class} \
+	{obj} 
+
+core.ignore= \
+	{Diversity Collection Mobile Solution.sln} \
+	{Diversity Collection Mobile Solution.suo} \
+	{bin} 

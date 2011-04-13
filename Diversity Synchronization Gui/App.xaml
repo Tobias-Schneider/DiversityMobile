@@ -1,0 +1,22 @@
+﻿    <Application x:Class="Diversity_Synchronization_Gui.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"   
+    xmlns:converters="clr-namespace:Diversity_Synchronization_Gui.Converters"
+    xmlns:divsync="clr-namespace:Diversity_Synchronization;assembly=DiversitySynchronization"
+    ShutdownMode="OnLastWindowClose" StartupUri="StartWindow.xaml" >
+    <Application.Resources>
+        <ObjectDataProvider ObjectInstance="{x:Static divsync:ConnectionsAccess.Instance}" x:Key="ModelRoot"/>
+        <ObjectDataProvider ObjectInstance="{x:Static divsync:SyncStatus.Instance}" x:Key="SyncStatus"/>
+           
+        <divsync:FieldDataSynchronizer x:Key="FieldDataManager"/>
+        <!--ObjectDataProvider ObjectInstance="Test" x:Key="ModelRoot"/-->
+        <converters:InverseBooleanConverter x:Key="InverseBooleanConverter"/>
+        <converters:CheckForFlagsConverter x:Key="CheckForFlagsConverter"/>
+        <converters:InvertedCheckForFlagsConverter x:Key="InvertedCheckForFlagsConverter"/>
+        <converters:FlagToRedGreenConverter x:Key="FlagToRedGreenConverter" />
+        <converters:FlagToDisConnectedConverter x:Key="FlagToDisConnectedConverter"/>
+        <converters:InvertedCheckForAnyFlagsConverter x:Key="InvertedCheckForAnyFlagsConverter"/>
+        <converters:LanguageStringFromIDConverter x:Key="LanguageStringFromIDConverter"/>
+        <converters:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
+    </Application.Resources>
+</Application>

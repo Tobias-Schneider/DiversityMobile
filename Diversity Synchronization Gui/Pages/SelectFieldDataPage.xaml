@@ -1,0 +1,106 @@
+﻿<pages:DiversityPage x:Class="Diversity_Synchronization_Gui.Pages.SelectFieldDataPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:pages="clr-namespace:Diversity_Synchronization_Gui.Pages"
+                     Loaded="DiversityPage_Loaded" >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200" />
+            <ColumnDefinition Width="1*" />            
+        </Grid.ColumnDefinitions>
+        
+
+        <GroupBox Header="Text ID 1223" x:Name="groupBoxSearch" Grid.Row="0" Grid.Column="0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="34" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="15" />
+                    <RowDefinition Height="26" />
+                    <RowDefinition Height="2*" />
+                    <RowDefinition Height="15" />
+                    <RowDefinition Height="25" />
+                </Grid.RowDefinitions>
+                <TextBlock x:Name="textBlockSelectSearchType" Grid.Row="0" Grid.Column="0"><Run Text="Text ID 1224"/></TextBlock>
+                <StackPanel Grid.Row="1" Grid.Column="0">
+                    <ListBox x:Name="listBoxSearchType" Background="AntiqueWhite" SelectionMode="Single" SelectionChanged="listBoxSearchType_SelectionChanged">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding TitleID, Converter={StaticResource LanguageStringFromIDConverter}, Mode=OneWay}"/>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                    <CheckBox x:Name="checkBoxTruncate" ToolTip="If enabled, only the selected items and their ancestors are included in the download.\nIf disabled, all of their children are retrieved as well." Checked="checkBoxTruncate_Checked">Truncate Data Items</CheckBox>
+                </StackPanel>
+                <Label x:Name="labelSearchFields" Grid.Row="3" Grid.Column="0" Content="Text ID 1225"/>
+                <ScrollViewer x:Name="scrollViewerSearchFields" Grid.Row="4" Grid.Column="0">
+                    <StackPanel x:Name="stackPanelSearchFields" Orientation="Vertical"/>
+                </ScrollViewer>
+                <Button x:Name="buttonQueryDatabase" Grid.Row="6" Grid.Column="0" Click="buttonQueryDatabase_Click" Content="Text ID 1226"/>
+            </Grid>
+        </GroupBox>
+		
+		
+        <Grid Grid.Column="1">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="1*" />
+				<ColumnDefinition Width="10" />
+	            <ColumnDefinition Width="50" />
+	            <ColumnDefinition Width="10" />
+	            <ColumnDefinition Width="1*" />
+			</Grid.ColumnDefinitions>
+			
+			<GroupBox x:Name="groupBoxResult" Grid.Column="0">
+				<Grid>
+		            <Grid.RowDefinitions>
+		                <RowDefinition Height="2*" />
+		                <RowDefinition Height="10" />
+		                <RowDefinition Height="25" />
+		                <RowDefinition Height="15" />
+		                <RowDefinition Height="1*" />
+		            </Grid.RowDefinitions>
+		            <ScrollViewer Grid.Row="0" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+                        <DockPanel >
+		                    <ListBox DockPanel.Dock="Top" x:Name="listBoxResult" Background="AntiqueWhite" Grid.Row="0" SelectionMode="Extended" SelectionChanged="listBoxResult_SelectionChanged" />
+                        </DockPanel>
+		            </ScrollViewer>
+		            <Button Grid.Row="2" Grid.Column="0" x:Name="buttonResultSelectAll" Click="buttonResultSelectAll_Click" Content="Text ID 1227"/>
+		            <Grid Grid.Row="4" Grid.Column="0" x:Name="containerTreeViewResult" Background="AntiqueWhite" />
+		        </Grid>
+			</GroupBox>
+	        
+	        
+	        <Grid Grid.Row="0" Grid.Column="2" >
+	            <Grid.RowDefinitions>
+	                <RowDefinition Height="1*" />
+	                <RowDefinition Height="25" />
+	                <RowDefinition Height="25" />
+	                <RowDefinition Height="25" />
+	                <RowDefinition Height="3*" />
+	            </Grid.RowDefinitions>
+	            <Button Grid.Row="1" x:Name="buttonAddToSelection" Click="buttonAddToSelection_Click" Content="Text ID 1228"/>
+	            <Button Grid.Row="3" x:Name="buttonRemoveFromSelection" Click="buttonRemoveFromSelection_Click" Content="Text ID 1229"/>
+	        </Grid>
+    
+	        <GroupBox Header="Text ID 1230" x:Name="groupBoxSelection" Grid.Column="4">
+	            <Grid>	                
+	                <Grid.RowDefinitions>
+	                    <RowDefinition Height="2*" />
+	                    <RowDefinition Height="10" />
+	                    <RowDefinition Height="25" />
+	                    <RowDefinition Height="15" />
+	                    <RowDefinition Height="1*" />
+	                </Grid.RowDefinitions>
+	                <ScrollViewer Grid.Row="0" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+                        <DockPanel >
+	                        <ListBox DockPanel.Dock="Top" x:Name="listBoxActualSelection" Background="AntiqueWhite"  SelectionMode="Extended"   SelectionChanged="listBoxActualSelection_SelectionChanged"/>
+                        </DockPanel>
+	                </ScrollViewer>
+	                <Button Grid.Row="2" x:Name="buttonActualSelectionSelectAll" Click="buttonActualSelectionSelectAll_Click" Content="Text ID 1227"/>
+	                <Grid x:Name="containerTreeViewActualSelection" Background="AntiqueWhite" Grid.Row="4" />
+	            </Grid>
+	        </GroupBox>
+		</Grid>
+
+    </Grid>
+</pages:DiversityPage>

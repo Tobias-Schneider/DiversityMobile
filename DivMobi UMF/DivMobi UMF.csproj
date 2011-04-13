@@ -1,0 +1,124 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C6411052-C56E-4E8E-B8B0-C4CDA7F9624D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UBT.AI4.Bio.DivMobi.UMF</RootNamespace>
+    <AssemblyName>DivMobi UMF</AssemblyName>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>PocketPC</PlatformFamilyName>
+    <PlatformID>b2c48bd2-963d-4549-9169-1fa021dce484</PlatformID>
+    <OSVersion>5.2</OSVersion>
+    <DeployDirSuffix>DivMobi_UMF</DeployDirSuffix>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <NativePlatformName>Windows Mobile 6 Professional SDK</NativePlatformName>
+    <FormFactorID>
+    </FormFactorID>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="UMF\Context\Actions\CustomActions\SetDefaultValueAction.cs" />
+    <Compile Include="UMF\Context\ContextCorruptedException.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UMF\Context\Actions\AbstractAction.cs" />
+    <Compile Include="UMF\Context\Actions\ActionRegistry.cs" />
+    <Compile Include="UMF\Context\Actions\CustomActions\SetTextAction.cs" />
+    <Compile Include="UMF\Context\Actions\IAction.cs" />
+    <Compile Include="UMF\Context\Actions\RemoveControlAction.cs" />
+    <Compile Include="UMF\Context\Actions\SetEnabledAction.cs" />
+    <Compile Include="UMF\Context\Actions\SetVisibleAction.cs" />
+    <Compile Include="UMF\Context\Configurator.cs" />
+    <Compile Include="UMF\Context\ContextConfigurationException.cs" />
+    <Compile Include="UMF\Context\ContextManager.cs" />
+    <Compile Include="UMF\Context\ContextRuntimeException.cs" />
+    <Compile Include="UMF\Context\IContextRoot.cs" />
+    <Compile Include="UMF\Context\Policy\ControlPolicy.cs" />
+    <Compile Include="UMF\Context\Policy\IPolicy.cs" />
+    <Compile Include="UMF\Context\Policy\PermissionLevel.cs" />
+    <Compile Include="UMF\Context\Policy\PolicyRegistry.cs" />
+    <Compile Include="UMF\Context\XMLContextRoot.cs" />
+    <Compile Include="UMF\Initializer\Attributes\ConnectAttribute.cs" />
+    <Compile Include="UMF\Initializer\Initializer.cs" />
+    <Compile Include="UMF\Layout\Attributes\FixedLayoutGroupAttribute.cs" />
+    <Compile Include="UMF\Layout\Attributes\HorizontalFixAttribute.cs" />
+    <Compile Include="UMF\Layout\Attributes\VerticalFixAttribute.cs" />
+    <Compile Include="UMF\Layout\Attributes\LayoutAttribute.cs" />
+    <Compile Include="UMF\Layout\IFixedLayoutGroup.cs" />
+    <Compile Include="UMF\Layout\ILayout.cs" />
+    <Compile Include="UMF\Layout\ILayouted.cs" />
+    <Compile Include="UMF\Layout\ILayoutFactory.cs" />
+    <Compile Include="UMF\Layout\LayoutFactory.cs" />
+    <Compile Include="UMF\Layout\Layouts\AbstractLayoutable.cs" />
+    <Compile Include="UMF\Layout\Layouts\BoxLayout.cs" />
+    <Compile Include="UMF\Layout\Layouts\BoxLayoutFactory.cs" />
+    <Compile Include="UMF\Layout\Layouts\BoxLayoutType.cs" />
+    <Compile Include="UMF\Layout\Layouts\ControlAdapter.cs" />
+    <Compile Include="UMF\Layout\Layouts\ICustomLayoutControl.cs" />
+    <Compile Include="UMF\Layout\Layouts\LayoutManager.cs" />
+    <Compile Include="UMF\Layout\Layouts\VirtualContainer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DivMobi Collection DataManagement\DivMobi Collection DataManagement.csproj">
+      <Project>{3ED04E9B-708D-4161-88E9-9DFB0647CADB}</Project>
+      <Name>DivMobi Collection DataManagement</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UBT AI4 Toolbox\UBT AI4 Toolbox.csproj">
+      <Project>{D6465A2E-702B-47F4-AB8C-CB745CF78740}</Project>
+      <Name>UBT AI4 Toolbox</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

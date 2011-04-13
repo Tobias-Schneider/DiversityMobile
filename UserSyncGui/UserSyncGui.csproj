@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{10547440-CE1E-421D-BF57-FDA82F525612}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UserSyncGui</RootNamespace>
+    <AssemblyName>UserSyncGui</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>DiversityWorkbench.ico</ApplicationIcon>
+    <StartupObject>UserSyncGui.Program</StartupObject>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActiveSyncOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActiveSyncOptions.Designer.cs">
+      <DependentUpon>ActiveSyncOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSelectProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSelectProject.Designer.cs">
+      <DependentUpon>FormSelectProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GoogleMapsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GoogleMapsForm.Designer.cs">
+      <DependentUpon>GoogleMapsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageOptions.cs" />
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MobileDeviceOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MobileDeviceOptions.Designer.cs">
+      <DependentUpon>MobileDeviceOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgressInformationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgressInformationForm.Designer.cs">
+      <DependentUpon>ProgressInformationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgressThread.cs" />
+    <Compile Include="RepositoryOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RepositoryOptions.Designer.cs">
+      <DependentUpon>RepositoryOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectFieldDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectFieldDataForm.Designer.cs">
+      <DependentUpon>SelectFieldDataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\MediaServiceProxy\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlGoogleMaps.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlGoogleMaps.Designer.cs">
+      <DependentUpon>UserControlGoogleMaps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserGui.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserGui.Designer.cs">
+      <DependentUpon>UserGui.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ActiveSyncOptions.resx">
+      <DependentUpon>ActiveSyncOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSelectProject.resx">
+      <DependentUpon>FormSelectProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GoogleMapsForm.resx">
+      <DependentUpon>GoogleMapsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MobileDeviceOptions.resx">
+      <DependentUpon>MobileDeviceOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgressInformationForm.resx">
+      <DependentUpon>ProgressInformationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepositoryOptions.resx">
+      <DependentUpon>RepositoryOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectFieldDataForm.resx">
+      <DependentUpon>SelectFieldDataForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlGoogleMaps.resx">
+      <DependentUpon>UserControlGoogleMaps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserGui.resx">
+      <DependentUpon>UserGui.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\MediaServiceProxy\service.wsdl" />
+    <None Include="Service References\MediaServiceProxy\service.xsd" />
+    <None Include="Service References\MediaServiceProxy\service1.xsd" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Watchdog.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DiversityWorkbench.ico" />
+    <Content Include="MobileDB.sdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\DiversityWorkbench.ico" />
+    <Content Include="Ressources\GoogleMap.html" />
+    <Content Include="Ressources\red_cross.gif" />
+    <Content Include="Ressources\UserOptions.xml" />
+    <None Include="Service References\MediaServiceProxy\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\MediaServiceProxy\configuration.svcinfo" />
+    <None Include="Service References\MediaServiceProxy\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.3.5">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\MediaServiceProxy\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Data Item Form Tools\Data Item Form Tools.csproj">
+      <Project>{623D41A7-F5BD-4238-9396-18B3B11B846B}</Project>
+      <Name>Data Item Form Tools</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DivMobi Collection Data Layer\DivMobi Collection Data Layer.csproj">
+      <Project>{A82D866C-F000-4EF7-AB47-A8B17BFCD0DA}</Project>
+      <Name>DivMobi Collection Data Layer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DivMobi Collection DataManagement\DivMobi Collection DataManagement.csproj">
+      <Project>{3ED04E9B-708D-4161-88E9-9DFB0647CADB}</Project>
+      <Name>DivMobi Collection DataManagement</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DivMobi Collection Forms\DivMobi Collection Forms.csproj">
+      <Project>{3074CF67-B378-43F0-B5E9-D99AE93B01A0}</Project>
+      <Name>DivMobi Collection Forms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DivMobi DatabaseConnector\DivMobi DatabaseConnector.csproj">
+      <Project>{75FDDB0D-66F7-4023-8475-5FCDFF61DBB3}</Project>
+      <Name>DivMobi DatabaseConnector</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ListSynchronizsation\ListSynchronization.csproj">
+      <Project>{16E4FAD9-A68C-4C10-BA60-CCE0AABD9A46}</Project>
+      <Name>ListSynchronization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenNetCF\OpenNETCF.Desktop.Communication.csproj">
+      <Project>{60FD337B-8EB5-4E20-A951-6EBB09CCE442}</Project>
+      <Name>OpenNETCF.Desktop.Communication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SyncBase\SyncBase.csproj">
+      <Project>{A84B92DF-B24C-4BB6-8EFA-47213CEE74B2}</Project>
+      <Name>SyncBase</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

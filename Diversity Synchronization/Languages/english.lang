@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!--StartWindow-->
+  <String id="101">Welcome to the SyncMobile Client</String>
+  <String id="102">please wait while application is starting...</String>
+
+  <!--FrameWindow-->
+  <String id="201">Diversity Mobile - SyncMobile Client</String>
+
+  <String id="202">Program</String>
+  <String id="203">Exit</String>
+  <String id="204">Options</String>
+  <String id="205">Repository Options</String>
+  <String id="206">MobileDB Options</String>
+  <String id="207">Synchronization Options</String>
+  <String id="208">Search Options</String>
+  <String id="209">Program Options</String>
+  <String id="210">Help</String>
+  <String id="211">About</String>
+
+  <!--ShutdownConfirmationWindow-->
+  <String id="301">Are you sure you want to exit?</String>
+
+  <String id="321">Shutdown the application</String>
+  <String id="322">You are currently exiting the application. Unsaved data will be lost.\nAre you sure you want continue?</String>
+
+  <String id="351">Yes</String>
+  <String id="352">No</String>
+
+  <!--ProgramOptions-->
+  <String id="401">Program Options</String>
+
+  <String id="402">Menu</String>
+  <String id="403">Save + Close</String>
+  <String id="404">Cancel</String>
+  <String id="405">Help</String>
+
+  <String id="421">Program Options</String>
+  <String id="422">You can select the language and the.\npassword options here.</String>
+  <String id="423">Language Settings</String>
+  <String id="424">Language File:</String>
+  <String id="425">Choose...</String>
+  <String id="426">Other Settings</String>
+  <String id="427">Hide Password:</String>
+  <String id="428">Yes</String>
+  <String id="429">Language file has to be located in the Language Subdirectory of the Application Folder!</String>
+
+  <String id="451">Save</String>
+  <String id="452">Cancel</String>
+
+  <String id="461">language files (*.lang)|*.lang|all files (*.*)|*.*</String>
+
+  <!--RepositoryOptions-->
+  <String id="501">Repository Options</String>
+
+  <String id="502">Menu</String>
+  <String id="503">Save + Close</String>
+  <String id="504">Cancel</String>
+  <String id="505">Help</String>
+
+  <String id="521">Repository Options</String>
+  <String id="522">To connect to the repository You need to fill in the correct connection data</String>
+  <String id="523">Login Settings</String>
+  <String id="524">Authentification Mode:</String>
+  <String id="525">SQL</String>
+  <String id="526">Windows</String>
+  <String id="527">Connection Settings</String>
+  <String id="528">Connection Name:</String>
+  <String id="529">IP Address:</String>
+  <String id="530">IP Port:</String>
+  <String id="531">Initial Catalog:</String>
+  <String id="532">Initial Taxon Catalog:</String>
+
+  <String id="551">Save</String>
+  <String id="552">Cancel</String>
+
+  <!--MobileSyncOptions-->
+  <String id="601">MobileDB Options</String>
+
+  <String id="602">Menu</String>
+  <String id="603">Save + Close</String>
+  <String id="604">Cancel</String>
+  <String id="605">Help</String>
+
+  <String id="621">MobileDB Options</String>
+  <String id="622">You can select to connect via ActiveSync/WMDC \nor to store the location of Your database files here.</String>
+  <String id="623">Connection Settings</String>
+  <String id="624">Use ActiveSync/WMDC</String>
+  <String id="625">Yes</String>
+  <String id="626">Timeout (in s):</String>
+  <String id="627">Location of MobileDB:</String>
+  <String id="628">Choose...</String>
+  <String id="629">Location of TaxonNamesDB:</String>
+  <String id="630">Choose...</String>
+
+  <String id="651">Save</String>
+  <String id="652">Cancel</String>
+
+  <String id="661">sdf files (*.sdf)|*.sdf|all files (*.*)|*.*</String>
+  <String id="662">sdf files (*.sdf)|*.sdf|all files (*.*)|*.*</String>
+
+  <!--SynchronizationOptions-->
+  <String id="701">Synchronization Options</String>
+
+  <String id="702">Menu</String>
+  <String id="703">Save + Close</String>
+  <String id="704">Cancel</String>
+  <String id="705">Help</String>
+
+  <String id="721">Synchronization Options</String>
+  <String id="722">You can choose what kind of data are part of the synchronization process</String>
+  <String id="723">General Settings</String>
+  <String id="724">Only Insert:</String>
+  <String id="725">Yes</String>
+
+  <String id="751">Save</String>
+  <String id="752">Cancel</String>
+
+  <!--SearchOptions-->
+  <String id="801">Search Options</String>
+
+  <String id="802">Menu</String>
+  <String id="803">Save + Close</String>
+  <String id="804">Cancel</String>
+  <String id="805">Help</String>
+
+  <String id="821">Search Options</String>
+  <String id="822">You can choose if You want to truncate retrieved data here</String>
+  <String id="823">General Settings</String>
+  <String id="824">Truncate DataItems:</String>
+  <String id="825">Yes</String>
+  <String id="826">Include Multimedia:</String>
+  <String id="827">Yes</String>
+  <String id="828">Max. Number of Items:</String>
+
+  <String id="851">Save</String>
+  <String id="852">Cancel</String>
+
+  <!--ConnectionPage-->
+  <String id="921">1. Step: Establish connections</String>
+  <String id="922">To synchronize data, it is necessary to login to the repository and the Mobile DB.\nPlease fill in your Logindata and connect to the databases.</String>
+  <String id="923">Repository-Connection</String>
+  <String id="924">Name:</String>
+  <String id="925">Initial Catalog:</String>
+  <String id="926">Not Connected</String>
+  <String id="927">Connected</String>
+  <String id="928">Failed</String>
+  <String id="929">Initial Taxonomic Catalog:</String>
+  <String id="930">Username:</String>
+  <String id="931">Password:</String>
+  <String id="932">Connect</String>
+  <String id="933">Disconnect</String>
+  <String id="934">MobileDB-Connection</String>
+  <String id="935">Use ActiveSync/WMDC</String>
+  <String id="936">Timeout (ms):</String>
+  <String id="937">Location of MobileDB:</String>
+  <String id="938">Location of TaxonNamesDB:</String>
+
+  <String id="939">Yes</String>
+  <String id="940">No</String>
+
+  <String id="952">Next</String>
+
+  <String id="960">Repository Connection Failed</String>
+  <String id="961">Please check your repository and login information!</String>
+  <String id="962">OK</String>
+
+  <String id="963">Mobile Connection Failed</String>
+  <String id="964">There are several possible reasons for this:\n- Incorrect database path\n- Corrupted datase file(s)</String>
+  <String id="965">OK</String>
+
+  <!--ProjectPage-->
+  <String id="1021">2. Step: Choose your Project</String>
+  <String id="1022"></String>
+  <String id="1023">Project-Selection</String>
+  <String id="1024">Please choose the project you want to edit in the list below:</String>
+  <String id="1025">Your Selection:</String>
+  <String id="1026">Project Name:</String>
+  <String id="1027">Username:</String>
+
+  <String id="1051">Back</String>
+  <String id="1052">Next</String>
+
+  <String id="1060">Project Selection Failed</String>
+  <String id="1061">Wrong Database Connected</String>
+  <String id="1062">The currently connected repository database is not the one associated with your user profile!\nDo you want to Clean the Mobile Database now, in order to change this association?\nWARNING: All data in your mobile database will be lost!</String>
+  <String id="1063">Yes</String>
+  <String id="1064">No</String>
+  
+
+  <!--ActionPage-->
+  <String id="1121">3. Step: Execute actions</String>
+  <String id="1122">Choose actions to upload or download data.</String>
+  <String id="1123">General Actions</String>
+  <String id="1124">Get PropertyNames</String>
+  <String id="1125">Get Taxon Definitions</String>
+  <String id="1126">Download Primary Data</String>
+
+  <String id="1127">Upload Data</String>
+  <String id="1141">Uploading Data...</String>
+  <String id="1128">Clean Data</String>
+  <String id="1129">Done</String>
+  <String id="1130">Maps</String>
+  <String id="1131">Google Maps</String>
+  <String id="1132">SNSB MapCenter Request</String>
+  <String id="1133">SNSB MapCenter Download</String>
+
+  <String id="1151">Back</String>
+  <String id="1152">Save Changes and Exit</String>
+
+  <String id="1160">Downloading necessary object definitions.</String>
+  <String id="1161">Updating object definitions in database.</String>
+
+  <!--SelectFieldDataPage-->
+  <String id="1221">Select Field Data for Download</String>
+  <String id="1222">Be Patient.</String>
+  <String id="1223">Search</String>
+  <String id="1224">Please select your SearchType</String>
+
+  <String id="1225">Please configure your search:</String>
+  <String id="1226">Query Database</String>
+  <String id="1227">Select All</String>
+  <String id="1228">--&gt;</String>
+  <String id="1229">&lt;--</String>
+  <String id="1230">Actual Selection</String>
+  <String id="1299">Result</String>
+  <!--DateRange Selection Lables-->
+  <String id="1231">From:</String>
+  <String id="1232">Up To:</String>
+  <!--DateRange Selection Lables-->
+  <String id="1233">Warning</String>
+  <String id="1234">Truncate Data Items is enabled!</String>
+  <String id="1235">You have selected Event Series as your search type.
+  Since you have also enabled the "Truncate Data Items" option you should be aware of the following:
+  In this configuration ONLY the EventSeries you select are downloaded. NO elements below them in the hierarchy are.
+  For example, you will not get any of the Identification Units below them im the tree.</String>
+  <String id="1236">OK</String>
+
+  <String id="1251">Cancel</String>
+  <String id="1252">Create Selection</String>
+
+  <String id="1261">Collection Event Series</String>
+  <String id="1262">Identification Unit</String>
+  <String id="1263">Sampling Plot</String>
+  
+  <String id="1271">Series Code</String>
+  <String id="1272">Description</String>
+  <String id="1273">Start Date Range</String>
+  <String id="1274">End Date Range</String>
+  <String id="1275">Last Identification</String>
+  <String id="1276">Taxonomic Group</String>
+  <String id="1277">Unit Description</String>
+  <String id="1278">Log Updated</String>
+
+  <String id="1290">Querying Database</String>
+  <String id="1291">Filling Result List</String>
+
+  
+
+
+
+
+  <!--SelectionPage-->
+  <String id="1321">Confirm the Selection</String>
+  <String id="1322"></String>
+  <String id="1323">Final Selection</String>
+  
+  <String id="1331">Building Final Selection</String>
+
+  <String id="1351">Clear Selection</String>
+  <String id="1352">Synchronize</String>
+
+  <!--MapsWindow-->
+  <String id="1401">Load Map</String>
+
+  <String id="1402">Menu</String>
+  <String id="1403">Close</String>
+  <String id="1404">Options</String>
+  <String id="1405">Save Options</String>
+  <!--<String id="1406">GPS Options</String>-->
+  <String id="1407">Device Options</String>
+  <String id="1408">Help</String>
+
+  <String id="1421">Load Map</String>
+  <String id="1422">Description\nIf necessary also a second line.</String>
+  <String id="1423">Position</String>
+  <String id="1424">Longitude:</String>
+  <String id="1425">Latitude:</String>
+  <String id="1426">&lt;-- Map</String>
+  <String id="1427">--&gt; Map</String>
+  
+  <String id="1428">Device Screen Size</String>
+  <String id="1429">Height</String>
+  <String id="1430">Width</String>
+  
+  
+  <String id="1438">File</String>
+  <String id="1439">Filename:</String>
+  <String id="1440"></String>
+  <String id="1441">Save</String>
+
+  <String id="1450">Success</String>
+  <String id="1451">Map successfully saved to local machine.</String>
+  <String id="1452">Failure</String>
+  <String id="1453">Failed to save map to local machine.</String>
+  <String id="1454">OK</String>
+
+  <!--MapSavingOptions-->
+  <String id="1501">Save Options</String>
+
+  <String id="1502">Menu</String>
+  <String id="1503">Save + Close</String>
+  <String id="1504">Cancel</String>
+  <String id="1505">Help</String>
+
+  <String id="1521">Save Options</String>
+  <String id="1522">Description of this side.\nSecond Line.</String>
+  <String id="1523">General Settings</String>
+  <String id="1524">Use device dimensions:</String>
+  <String id="1525">Yes</String>
+  <String id="1526">Save to device:</String>
+  <String id="1527">Yes</String>
+
+  <String id="1551">Save</String>
+  <String id="1552">Cancel</String>
+
+  <!--MobileDeviceOptions-->
+  <String id="1601">Device Options</String>
+
+  <String id="1602">Menu</String>
+  <String id="1603">Save + Close</String>
+  <String id="1604">Cancel</String>
+  <String id="1605">Help</String>
+
+  <String id="1621">Device Options</String>
+  <String id="1622">Description of this side.\nSecond Line.</String>
+  <String id="1623">General Settings</String>
+  <String id="1624">Screen Width (px):</String>
+  <String id="1625">Screen Height (px):</String>
+
+  <String id="1651">Save</String>
+  <String id="1652">Cancel</String>
+
+  <!--AboutWindow-->
+  <String id="1701">About</String>
+
+  <String id="1721">About</String>
+  <String id="1722">Universitaet Bayreuth\nTobias Schneider</String>
+
+  <!--ProgressInformationWindow-->
+  <String id="1801">Progress Information</String>
+  
+  <String id="1824">Please Wait</String>
+
+  <String id="1851">Cancel</String>
+
+  <!--MessageBoxWindow-->
+  <String id="1901">Warning</String>
+
+  <String id="1921">No database connection available!</String>
+  <String id="1922">You are currently not connected to a database.\nYour actions would be restricted! Continue?</String>
+
+  <String id="1951">Yes</String>
+  <String id="1952">No</String>
+
+  <!--TaxonPage-->
+  <String id="2001">Taxon List Selection</String>
+  <String id="2002">Load Taxon Data</String>
+  <String id="2021">Select Taxon data for download</String>
+  <String id="2022">Choose which of the available Catalogs will be available on the phone</String>
+
+  <String id="2031">Downloading Taxa:</String>
+
+  <String id="2051">Back</String>
+  
+  <!--CleanConfirmationWindow-->
+  <String id="2101">Warning</String>
+
+  <String id="2102">Cleaning Databases</String>
+  <String id="2103">All Data in your Mobile Database will be lost!</String>
+
+  <String id="2104">Clean</String>
+  <String id="2105">Cancel</String>
+  
+  
+  <!--Errors and Validation-->
+  
+
+</Language>

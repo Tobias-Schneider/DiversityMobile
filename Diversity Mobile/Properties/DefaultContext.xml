@@ -1,0 +1,1882 @@
+﻿
+  <Context ContextId="German">
+    <!-- Start Configure NewEventDialog -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.Dialogs.NewEventDialog, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelCollectorsEventNumber">
+        <Action ActionId="SetTextAction" Parameter="Nummer Sammelort:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelDateSupplement">
+        <Action ActionId="SetTextAction" Parameter="Ergänzung Sammeldatum:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelNotesCaption">
+        <Action ActionId="SetTextAction" Parameter="Notizen:" />
+      </FieldDescriptor>
+
+    </ClassConfiguration>
+    <!-- End Configure NewEventDialog -->
+    
+    <!-- Start Configure UserProfileDialog -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.Dialogs.UserProfileDialog, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="tabPageUserData">
+        <Action ActionId="SetTextAction" Parameter="Nutzer Daten" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="tabPageTreeViewProperties">
+        <Action ActionId="SetTextAction" Parameter="Anzeige" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="tabPageProperties">
+        <Action ActionId="SetTextAction" Parameter="Eigenschaften" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="tabPageTaxonList">
+        <Action ActionId="SetTextAction" Parameter="Taxonomie" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelCaptionUserData">
+        <Action ActionId="SetTextAction" Parameter="Nutzer Daten" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelCaptionTreeView">
+        <Action ActionId="SetTextAction" Parameter="Anzeige Eigenschaften" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelNameCaption">
+        <Action ActionId="SetTextAction" Parameter="Login:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelProjectCaption">
+        <Action ActionId="SetTextAction" Parameter="Projekt:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelNameCache">
+        <Action ActionId="SetTextAction" Parameter="Name:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelToolbarIcons">
+        <Action ActionId="SetTextAction" Parameter="Größe Icons:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelContext">
+        <Action ActionId="SetTextAction" Parameter="Kontext:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelLanguageContext">
+        <Action ActionId="SetTextAction" Parameter="Sprache:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="checkBoxDefaultIUGeoAnalysis">
+        <Action ActionId="SetTextAction" Parameter="GeoAnalyse für alle Organismen einfügen" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelTaxonomyGroup">
+        <Action ActionId="SetTextAction" Parameter="Taxonomische Gruppe:" />
+      </FieldDescriptor>
+    </ClassConfiguration>
+    <!-- End Configure UserProfileDialog -->
+    
+    <!-- Start Configure NewSitePropertyDialog -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.Dialogs.NewSitePropertyDialog, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="buttonSearch">
+        <Action ActionId="SetTextAction" Parameter="Suche" />
+      </FieldDescriptor>
+    </ClassConfiguration>
+    <!-- End Configure NewSitePropertyDialog -->
+    
+    <!-- Start Configure NewIdentificationUnitDialog -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.Dialogs.NewIdentificationUnitDialog, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelIdentification">
+        <Action ActionId="SetTextAction" Parameter="Bestimmungen:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelTaxonomicGroupCaption">
+        <Action ActionId="SetTextAction" Parameter="Tax. Gruppe:" />
+      </FieldDescriptor>
+      
+      <FieldDescriptor FieldName="labelUnitDescriptionCaption">
+        <Action ActionId="SetTextAction" Parameter="Beschreibung:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelUnitIdentifierCaption">
+        <Action ActionId="SetTextAction" Parameter="Kennung:" />
+      </FieldDescriptor>
+      
+      <FieldDescriptor FieldName="labelRelationCaption">
+        <Action ActionId="SetTextAction" Parameter="Beziehung:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonNext">
+        <Action ActionId="SetTextAction" Parameter="Nächste IU" />
+      </FieldDescriptor>
+      
+    </ClassConfiguration>
+    <!-- End Configure NewIdentificationUnitDialog -->
+    
+    <!-- Start Configure NewGPSLocalisationForm -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.Dialogs.NewGPSLocalisationForm, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelLongitude">
+        <Action ActionId="SetTextAction" Parameter="Geogr. Länge:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelLatitude">
+        <Action ActionId="SetTextAction" Parameter="Geogr. Breite:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelAltitude">
+        <Action ActionId="SetTextAction" Parameter="Höhe:" />
+      </FieldDescriptor>
+    </ClassConfiguration>
+    <!-- End Configure NewGPSLocalisationForm -->
+    
+    <!-- Start Configure NewAnalysisDialog -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.Dialogs.NewAnalysisDialog, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelValueCaption">
+        <Action ActionId="SetTextAction" Parameter="Wert:" />
+      </FieldDescriptor>
+    </ClassConfiguration>
+    <!-- End Configure NewAnalysisDialog -->
+    
+    <!-- Start Configure NewAgentDialog -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.Dialogs.NewAgentDialog, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelCollectorsNameCaption">
+        <Action ActionId="SetTextAction" Parameter="Sammler:" />
+      </FieldDescriptor>
+    </ClassConfiguration>
+    <!-- End Configure NewAgentDialog -->
+    
+    <!-- Start Configure EventSeriesDialog -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.Dialogs.EventSeriesDialog, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelSeriesCode">
+        <Action ActionId="SetTextAction" Parameter="Code:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelDescriptionCaption">
+        <Action ActionId="SetTextAction" Parameter="Beschreibung:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelDateCaption">
+        <Action ActionId="SetTextAction" Parameter="Startdatum:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelDateEnd">
+        <Action ActionId="SetTextAction" Parameter="Enddatum:" />
+      </FieldDescriptor>
+    </ClassConfiguration>
+    <!-- End Configure EventSeriesDialog -->
+    
+    <!-- Start Configure ResponsibleDialog -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.Dialogs.ResponsibleDialog, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelRespNameCaption">
+        <Action ActionId="SetTextAction" Parameter="Verantwortl.:" />
+      </FieldDescriptor>
+    </ClassConfiguration>
+    <!-- End Configure ResponsibleDialog -->
+    
+    <!-- Start Configure AgentForm -->
+    <!--
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.ContextForms.AgentForm, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelCollectorsNameCaption">
+        <Action ActionId="SetTextAction" Parameter="Sammler:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelNumberCaption">
+        <Action ActionId="SetTextAction" Parameter="Sammel nummer:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelNotes">
+        <Action ActionId="SetTextAction" Parameter="Notiz:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonChangeName">
+        <Action ActionId="SetTextAction" Parameter="Ändern" />
+      </FieldDescriptor>
+      
+    </ClassConfiguration>
+    -->
+    <!-- End Configure AgentForm -->
+
+    <!-- Start Configure CollectionEventForm -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.ContextForms.CollectionEventForm, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelCollectionTimeCaption">
+        <Action ActionId="SetTextAction" Parameter="Zeit:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelCollectorsEventNumberCaption">
+        <Action ActionId="SetTextAction" Parameter="Nummer des Sammelorts:" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="labelTimespan">
+        <Action ActionId="SetTextAction" Parameter="Dauer:" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="labelDateCaption">
+        <Action ActionId="SetTextAction" Parameter="Datum:" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="buttonNewDate">
+        <Action ActionId="SetTextAction" Parameter="Neu" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelVersionCaption">
+        <Action ActionId="SetTextAction" Parameter="Version:" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="labelDateSupplement">
+        <Action ActionId="SetTextAction" Parameter="Ergänzung des Datums" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="labelRefTitle">
+        <Action ActionId="SetTextAction" Parameter="Literatur:" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="labelCountryCache">
+        <Action ActionId="SetTextAction" Parameter="Land:" />
+      </FieldDescriptor>
+      
+      <FieldDescriptor FieldName="buttonHabitat">
+        <Action ActionId="SetTextAction" Parameter="Beschreibung des Habitats" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="buttonLocality">
+        <Action ActionId="SetTextAction" Parameter="Beschreibung des Sammelorts" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonMethod">
+        <Action ActionId="SetTextAction" Parameter="Sammelmethode" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="buttonNotes">
+        <Action ActionId="SetTextAction" Parameter="Notizen" />
+      </FieldDescriptor>
+
+    </ClassConfiguration>
+    <!-- End Configure CollectionEventForm -->
+
+    <!-- Start Configure EventPropertyForm -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.ContextForms.EventPropertyForm, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+
+      <FieldDescriptor FieldName="labelAverageValueCaption">
+        <Action ActionId="SetTextAction" Parameter="Durchschn. Wert:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelValueCaption">
+        <Action ActionId="SetTextAction" Parameter="Wert:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelDisplayTextCaption">
+        <Action ActionId="SetTextAction" Parameter="Anzeige:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelResponsibleNameCaption">
+        <Action ActionId="SetTextAction" Parameter="Verantwortl.:" />
+      </FieldDescriptor>
+
+    </ClassConfiguration>
+    <!-- End Configure EventPropertyForm -->
+
+    <!-- Start Configure IdentificationUnitForm -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.ContextForms.IdentificationUnitForm, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+
+      <FieldDescriptor FieldName="labelLastIdentificationCacheCaption">
+        <Action ActionId="SetTextAction" Parameter="Letzte Bestimmung:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelTaxonomicGroupCaption">
+        <Action ActionId="SetTextAction" Parameter="Taxonomische Gruppe:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelRelatedUnitCaption">
+        <Action ActionId="SetTextAction" Parameter="Verbundener Organismus" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelRelationTypeCaption">
+        <Action ActionId="SetTextAction" Parameter="Typ der Beziehung:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelCircumstances">
+        <Action ActionId="SetTextAction" Parameter="Umstände:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelNumberOfUnits">
+        <Action ActionId="SetTextAction" Parameter="Organismenanzahl:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelGender">
+        <Action ActionId="SetTextAction" Parameter="Geschlecht:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelLifestage">
+        <Action ActionId="SetTextAction" Parameter="Stadium:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelColonisedSubstratePart">
+        <Action ActionId="SetTextAction" Parameter="Besiedelter Teil:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="checkBoxIUOnlyObservedDetails">
+        <Action ActionId="SetTextAction" Parameter="Organismus wird nur beobachtet" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelDisplayOrder">
+        <Action ActionId="SetTextAction" Parameter="Reihenfolge:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelUnitDescriptionCaption">
+        <Action ActionId="SetTextAction" Parameter="Beschreibung:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelUnitIdentifierCaption">
+        <Action ActionId="SetTextAction" Parameter="Kennung:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonNotes">
+        <Action ActionId="SetTextAction" Parameter="Notizen" />
+      </FieldDescriptor>
+
+    </ClassConfiguration>
+    <!-- End Configure IdentificationUnitForm -->
+
+    <!-- Start Configure IdentificationUnitAnalysisForm -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.ContextForms.IdentificationUnitAnalysisForm, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelAnalysisDateCaption">
+        <Action ActionId="SetTextAction" Parameter="Datum:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelAnalysisResultCaption">
+        <Action ActionId="SetTextAction" Parameter="Ergebnis:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelIUCaption">
+        <Action ActionId="SetTextAction" Parameter="Organismus:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelCSCaption">
+        <Action ActionId="SetTextAction" Parameter="Sammlungsbeleg:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelAnalysisCaption">
+        <Action ActionId="SetTextAction" Parameter="Analyse:" />
+      </FieldDescriptor>
+    </ClassConfiguration>
+    <!-- End Configure IdentificationUnitAnalysisForm -->
+
+    <!-- Start Configure LocalisationDetailForm -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.ContextForms.LocalisationDetailForm, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+
+      <FieldDescriptor FieldName="labelLocation1Caption">
+        <Action ActionId="SetTextAction" Parameter="Lage 1:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelLocation2Caption">
+        <Action ActionId="SetTextAction" Parameter="Lage 2:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelLocAccuracyCaption">
+        <Action ActionId="SetTextAction" Parameter="Genauigkeit:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelResponsibleNameCaption">
+        <Action ActionId="SetTextAction" Parameter="Verantw.:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelDateCaption">
+        <Action ActionId="SetTextAction" Parameter="Datum:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonNewDate">
+        <Action ActionId="SetTextAction" Parameter="Neu" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonShowMap">
+        <Action ActionId="SetTextAction" Parameter="Zeige Map" />
+      </FieldDescriptor>
+    </ClassConfiguration>
+    <!-- End Configure LocalisationDetailForm -->
+    
+    <!-- Start Configure SpecimenEditForm -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.ContextForms.SpecimenEditForm, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelAccessionNumber">
+        <Action ActionId="SetTextAction" Parameter="Zugangs nummer:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelDepositorsName">
+        <Action ActionId="SetTextAction" Parameter="Herkunft:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelLabelTitle">
+        <Action ActionId="SetTextAction" Parameter="Titel des Etiketts:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelLabelType">
+        <Action ActionId="SetTextAction" Parameter="Typ des Etiketts:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelExsiccataAbbreviation">
+        <Action ActionId="SetTextAction" Parameter="Exsikkatenserie (Abk.):" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonAdditionalNotes">
+        <Action ActionId="SetTextAction" Parameter="Zusätzliche Notizen" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonOriginalNotes">
+        <Action ActionId="SetTextAction" Parameter="Original Anmerkung" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonDataWithholdingReason">
+        <Action ActionId="SetTextAction" Parameter="Datensperre für Beleg" />
+      </FieldDescriptor>
+    </ClassConfiguration>
+    <!-- End Configure SpecimenEditForm -->
+  </Context>
+
+  <Context ContextId="English">
+    <!-- Start Configure NewEventDialog -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.Dialogs.NewEventDialog, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelCollectorsEventNumber">
+        <Action ActionId="SetTextAction" Parameter="Event No.:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelDateSupplement">
+        <Action ActionId="SetTextAction" Parameter="Date Supplement:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelNotesCaption">
+        <Action ActionId="SetTextAction" Parameter="Notes:" />
+      </FieldDescriptor>
+
+    </ClassConfiguration>
+    <!-- End Configure NewEventDialog -->
+    
+    <!-- Start Configure UserProfileDialog -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.Dialogs.UserProfileDialog, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="tabPageUserData">
+        <Action ActionId="SetTextAction" Parameter="User Data" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="tabPageTreeViewProperties">
+        <Action ActionId="SetTextAction" Parameter="Display" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="tabPageProperties">
+        <Action ActionId="SetTextAction" Parameter="Properties" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="tabPageTaxonList">
+        <Action ActionId="SetTextAction" Parameter="Taxonomy" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelCaptionUserData">
+        <Action ActionId="SetTextAction" Parameter="General User Data" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelCaptionTreeView">
+        <Action ActionId="SetTextAction" Parameter="Display Properties" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelNameCaption">
+        <Action ActionId="SetTextAction" Parameter="User Login:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelProjectCaption">
+        <Action ActionId="SetTextAction" Parameter="Project:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelNameCache">
+        <Action ActionId="SetTextAction" Parameter="User Name:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelToolbarIcons">
+        <Action ActionId="SetTextAction" Parameter="Icon Size:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelContext">
+        <Action ActionId="SetTextAction" Parameter="Context:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelLanguageContext">
+        <Action ActionId="SetTextAction" Parameter="Language:" />
+      </FieldDescriptor>
+      
+      <FieldDescriptor FieldName="checkBoxDefaultIUGeoAnalysis">
+        <Action ActionId="SetTextAction" Parameter="Insert geography for every organism" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelTaxonomyGroup">
+        <Action ActionId="SetTextAction" Parameter="Taxonomic Group:" />
+      </FieldDescriptor>
+
+    </ClassConfiguration>
+    <!-- End Configure UserProfileDialog -->
+    
+    <!-- Start Configure NewSitePropertyDialog -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.Dialogs.NewSitePropertyDialog, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="buttonSearch">
+        <Action ActionId="SetTextAction" Parameter="Search" />
+      </FieldDescriptor>
+    </ClassConfiguration>
+    <!-- End Configure NewSitePropertyDialog -->
+    
+    <!-- Start Configure NewIdentificationUnitDialog -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.Dialogs.NewIdentificationUnitDialog, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelIdentification">
+        <Action ActionId="SetTextAction" Parameter="Identification:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelTaxonomicGroupCaption">
+        <Action ActionId="SetTextAction" Parameter="Tax. Group:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelUnitDescriptionCaption">
+        <Action ActionId="SetTextAction" Parameter="Description:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelUnitIdentifierCaption">
+        <Action ActionId="SetTextAction" Parameter="Identifier:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelRelationCaption">
+        <Action ActionId="SetTextAction" Parameter="Relation:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonNext">
+        <Action ActionId="SetTextAction" Parameter="Next IU" />
+      </FieldDescriptor>
+    </ClassConfiguration>
+    <!-- End Configure NewIdentificationUnitDialog -->
+    
+    <!-- Start Configure NewGPSLocalisationForm -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.Dialogs.NewGPSLocalisationForm, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelLongitude">
+        <Action ActionId="SetTextAction" Parameter="Longitude:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelLatitude">
+        <Action ActionId="SetTextAction" Parameter="Latitude:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelAltitude">
+        <Action ActionId="SetTextAction" Parameter="Altitude:" />
+      </FieldDescriptor>
+    </ClassConfiguration>
+    <!-- End Configure NewGPSLocalisationForm -->
+    
+    <!-- Start Configure NewAnalysisDialog -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.Dialogs.NewAnalysisDialog, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelValueCaption">
+        <Action ActionId="SetTextAction" Parameter="Value:" />
+      </FieldDescriptor>
+    </ClassConfiguration>
+    <!-- End Configure NewAnalysisDialog -->
+    
+    <!-- Start Configure NewAgentDialog -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.Dialogs.NewAgentDialog, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelCollectorsNameCaption">
+        <Action ActionId="SetTextAction" Parameter="Collector:" />
+      </FieldDescriptor>
+    </ClassConfiguration>
+    <!-- End Configure NewAgentDialog -->
+    
+    <!-- Start Configure EventSeriesDialog -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.Dialogs.EventSeriesDialog, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelSeriesCode">
+        <Action ActionId="SetTextAction" Parameter="Code:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelDescriptionCaption">
+        <Action ActionId="SetTextAction" Parameter="Description:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelDateCaption">
+        <Action ActionId="SetTextAction" Parameter="Start Date:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelDateEnd">
+        <Action ActionId="SetTextAction" Parameter="End Date:" />
+      </FieldDescriptor>
+    </ClassConfiguration>
+    <!-- End Configure EventSeriesDialog -->
+    
+    <!-- Start Configure ResponsibleDialog -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.Dialogs.ResponsibleDialog, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelRespNameCaption">
+        <Action ActionId="SetTextAction" Parameter="Responsible:" />
+      </FieldDescriptor>
+    </ClassConfiguration>
+    <!-- End Configure ResponsibleDialog -->
+    
+    <!-- Start Configure AgentForm -->
+    <!-- 
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.ContextForms.AgentForm, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelCollectorsNameCaption">
+        <Action ActionId="SetTextAction" Parameter="Collector:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelNumberCaption">
+        <Action ActionId="SetTextAction" Parameter="Collectors number:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelNotes">
+        <Action ActionId="SetTextAction" Parameter="Notes:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonChangeName">
+        <Action ActionId="SetTextAction" Parameter="Change" />
+      </FieldDescriptor>
+
+    </ClassConfiguration>
+    -->
+    <!-- End Configure AgentForm -->
+
+    <!-- Start Configure CollectionEventForm -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.ContextForms.CollectionEventForm, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelCollectionTimeCaption">
+        <Action ActionId="SetTextAction" Parameter="Time:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelCollectorsEventNumberCaption">
+        <Action ActionId="SetTextAction" Parameter="Event No.:" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="labelTimespan">
+        <Action ActionId="SetTextAction" Parameter="Timespan:" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="labelDateCaption">
+        <Action ActionId="SetTextAction" Parameter="Date:" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="buttonNewDate">
+        <Action ActionId="SetTextAction" Parameter="New Date" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelVersionCaption">
+        <Action ActionId="SetTextAction" Parameter="Version:" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="labelDateSupplement">
+        <Action ActionId="SetTextAction" Parameter="Date Sup.:" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="labelRefTitle">
+        <Action ActionId="SetTextAction" Parameter="Ref. Title:" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="labelCountryCache">
+        <Action ActionId="SetTextAction" Parameter="Country:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonHabitat">
+        <Action ActionId="SetTextAction" Parameter="Habitat" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="buttonLocality">
+        <Action ActionId="SetTextAction" Parameter="Locality" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonMethod">
+        <Action ActionId="SetTextAction" Parameter="Method" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="buttonNotes">
+        <Action ActionId="SetTextAction" Parameter="Notes:" />
+      </FieldDescriptor>
+
+    </ClassConfiguration>
+    <!-- End Configure CollectionEventForm -->
+
+    <!-- Start Configure EventPropertyForm -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.ContextForms.EventPropertyForm, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+
+      <FieldDescriptor FieldName="labelAverageValueCaption">
+        <Action ActionId="SetTextAction" Parameter="Average Value:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelValueCaption">
+        <Action ActionId="SetTextAction" Parameter="Value:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelDisplayTextCaption">
+        <Action ActionId="SetTextAction" Parameter="Display Text:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelResponsibleNameCaption">
+        <Action ActionId="SetTextAction" Parameter="Responsible:" />
+      </FieldDescriptor>
+
+    </ClassConfiguration>
+    <!-- End Configure EventPropertyForm -->
+
+    <!-- Start Configure IdentificationUnitForm -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.ContextForms.IdentificationUnitForm, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+
+      <FieldDescriptor FieldName="labelLastIdentificationCacheCaption">
+        <Action ActionId="SetTextAction" Parameter="Last Identification:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelTaxonomicGroupCaption">
+        <Action ActionId="SetTextAction" Parameter="Taxonomic Group:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelRelatedUnitCaption">
+        <Action ActionId="SetTextAction" Parameter="Related Unit:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelRelationTypeCaption">
+        <Action ActionId="SetTextAction" Parameter="Relation Type:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelCircumstances">
+        <Action ActionId="SetTextAction" Parameter="Circumstances:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelNumberOfUnits">
+        <Action ActionId="SetTextAction" Parameter="Number of Units:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelGender">
+        <Action ActionId="SetTextAction" Parameter="Gender:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelLifestage">
+        <Action ActionId="SetTextAction" Parameter="Lifestage:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelColonisedSubstratePart">
+        <Action ActionId="SetTextAction" Parameter="Colonised Substrate Part:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="checkBoxIUOnlyObservedDetails">
+        <Action ActionId="SetTextAction" Parameter="Unit was only observed:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelDisplayOrder">
+        <Action ActionId="SetTextAction" Parameter="Display Order:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelUnitDescriptionCaption">
+        <Action ActionId="SetTextAction" Parameter="Description:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelUnitIdentifierCaption">
+        <Action ActionId="SetTextAction" Parameter="Identifier:" />
+      </FieldDescriptor>
+      
+      <FieldDescriptor FieldName="buttonNotes">
+        <Action ActionId="SetTextAction" Parameter="Notes" />
+      </FieldDescriptor>
+
+    </ClassConfiguration>
+    <!-- End Configure IdentificationUnitForm -->
+
+    <!-- Start Configure IdentificationUnitAnalysisForm -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.ContextForms.IdentificationUnitAnalysisForm, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelAnalysisDateCaption">
+        <Action ActionId="SetTextAction" Parameter="Date:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelAnalysisResultCaption">
+        <Action ActionId="SetTextAction" Parameter="Result:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelIUCaption">
+        <Action ActionId="SetTextAction" Parameter="Ident. Unit:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelCSCaption">
+        <Action ActionId="SetTextAction" Parameter="Specimen:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelAnalysisCaption">
+        <Action ActionId="SetTextAction" Parameter="Analysis:" />
+      </FieldDescriptor>
+    </ClassConfiguration>
+    <!-- End Configure IdentificationUnitAnalysisForm -->
+
+    <!-- Start Configure LocalisationDetailForm -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.ContextForms.LocalisationDetailForm, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+
+      <FieldDescriptor FieldName="labelLocation1Caption">
+        <Action ActionId="SetTextAction" Parameter="Location 1:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelLocation2Caption">
+        <Action ActionId="SetTextAction" Parameter="Location 2:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelLocAccuracyCaption">
+        <Action ActionId="SetTextAction" Parameter="Accuracy:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelResponsibleNameCaption">
+        <Action ActionId="SetTextAction" Parameter="Respons.:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelDateCaption">
+        <Action ActionId="SetTextAction" Parameter="Date:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonNewDate">
+        <Action ActionId="SetTextAction" Parameter="New Date" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonShowMap">
+        <Action ActionId="SetTextAction" Parameter="Show Map" />
+      </FieldDescriptor>
+    </ClassConfiguration>
+    <!-- End Configure LocalisationDetailForm -->
+    
+    <!-- Start Configure SpecimenEditForm -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.ContextForms.SpecimenEditForm, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelAccessionNumber">
+        <Action ActionId="SetTextAction" Parameter="Accession Number:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelDepositorsName">
+        <Action ActionId="SetTextAction" Parameter="Depositors Name:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelLabelTitle">
+        <Action ActionId="SetTextAction" Parameter="Label Title:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelLabelType">
+        <Action ActionId="SetTextAction" Parameter="Label Type:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelExsiccataAbbreviation">
+        <Action ActionId="SetTextAction" Parameter="Exsiccata Abbreviation:" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonOriginalNotes">
+        <Action ActionId="SetTextAction" Parameter="Original Notes" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonAdditionalNotes">
+        <Action ActionId="SetTextAction" Parameter="Additional Notes" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonDataWithholdingReason">
+        <Action ActionId="SetTextAction" Parameter="Data Withholding Reason" />
+      </FieldDescriptor>
+
+      <!-- usw... -->
+    </ClassConfiguration>
+    <!-- End Configure SpecimenEditForm -->
+  </Context>
+
+  <Context ContextId="Monitoring">
+    <!-- Start Configure NewEventDialog -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.Dialogs.NewEventDialog, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      
+
+    </ClassConfiguration>
+    <!-- End Configure NewEventDialog -->
+    
+    <!-- Start Configure NewSitePropertyDialog -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.Dialogs.NewSitePropertyDialog, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="buttonSearch">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonOk">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="comboBoxDisplayText">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="comboBoxPropertyGroup">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="treeViewPropertyHierarchy">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+    </ClassConfiguration>
+    <!-- End Configure NewSitePropertyDialog -->
+    
+    <!-- Start Configure NewGPSLocalisationForm -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.Dialogs.NewGPSLocalisationForm, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelLongitude">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxLongitude">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelLatitude">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxLatitude">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelAltitude">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxAltitude">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      
+      <FieldDescriptor FieldName="buttonGPS">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="buttonOk">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+    </ClassConfiguration>
+    <!-- End Configure NewGPSLocalisationForm -->
+    
+    <!-- Start Configure NewAnalysisDialog -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.Dialogs.NewAnalysisDialog, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelValueCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="comboBoxAnalysisValue">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="comboBoxAnalysis">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelAnalysisDescription">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="dateTimePickerAnalysis">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonOk">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      
+    </ClassConfiguration>
+    <!-- End Configure NewAnalysisDialog --> 
+    
+    <!-- Start Configure EventSeriesDialog -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.Dialogs.EventSeriesDialog, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelSeriesCode">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxSeriesCode">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelDescriptionCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxDescription">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelDateCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="labelDate">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelDateEnd">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="labelDateEndValue">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonOk">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+    </ClassConfiguration>
+    <!-- End Configure EventSeriesDialog -->
+    
+    <!-- Start Configure AgentForm -->
+    <!--
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.ContextForms.AgentForm, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelCollectorsNameCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxCollectorsName">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="buttonChangeName">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      
+      <FieldDescriptor FieldName="labelNumberCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxNumber">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelNotes">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxNotes">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      
+    </ClassConfiguration>-->
+    <!-- End Configure AgentForm -->
+
+    <!-- Start Configure CollectionEventForm -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.ContextForms.CollectionEventForm, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelCollectionTimeCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxCollectionTime">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelCollectorsEventNumberCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxCollectorsEventNumber">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      
+      <FieldDescriptor FieldName="labelTimespan">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxTimeSpan">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      
+      <FieldDescriptor FieldName="labelDateCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="dateTimePickerCollectionEventDate">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      
+      <FieldDescriptor FieldName="buttonNewDate">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelVersionCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="labelVersion">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      
+      <FieldDescriptor FieldName="labelDateSupplement">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxDateSupplement">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      
+      <FieldDescriptor FieldName="labelRefTitle">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxRefTitle">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      
+      <FieldDescriptor FieldName="labelCountryCache">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxCountryCache">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonHabitat">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="buttonLocality">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonMethod">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="buttonNotes">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+    </ClassConfiguration>
+    <!-- End Configure CollectionEventForm -->
+
+    <!-- Start Configure EventPropertyForm -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.ContextForms.EventPropertyForm, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelAverageValueCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="labelAverageValue">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelValueCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxValue">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelDisplayTextCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxDisplayText">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      
+
+      <FieldDescriptor FieldName="labelResponsibleNameCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="labelResponsible">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+    </ClassConfiguration>
+    <!-- End Configure EventPropertyForm -->
+
+    <!-- Start Configure IdentificationUnitForm -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.ContextForms.IdentificationUnitForm, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelLastIdentificationCacheCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxSearch">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="comboBoxIdentification">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelTaxonomicGroupCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="labelTaxonomicGroup">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelRelatedUnitCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="labelRelatedUnit">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelRelationTypeCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="comboBoxRelationType">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelCircumstances">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="comboBoxCircumstances">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelNumberOfUnits">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxNumberOfUnits">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      
+      <FieldDescriptor FieldName="labelGender">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxGender">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelLifestage">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxLifeStage">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelColonisedSubstratePart">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxColonisedSubstratePart">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="checkBoxIUOnlyObservedDetails">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelDisplayOrder">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxDisplayOrder">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelUnitDescriptionCaption">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="comboBoxIUUnitDescription">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelUnitIdentifierCaption">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxUnitIdentifier">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      
+      <FieldDescriptor FieldName="buttonNotes">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+    </ClassConfiguration>
+    <!-- End Configure IdentificationUnitForm -->
+
+    <!-- Start Configure IdentificationUnitAnalysisForm -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.ContextForms.IdentificationUnitAnalysisForm, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelAnalysisDateCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxAnalysisDate">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelAnalysisResultCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxAnalysisResult">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelIUCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="labelIU">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelCSCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="labelCS">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelAnalysisCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="labelAnalysis">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+    </ClassConfiguration>
+    <!-- End Configure IdentificationUnitAnalysisForm -->
+
+    <!-- Start Configure LocalisationDetailForm -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.ContextForms.LocalisationDetailForm, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelLocation1Caption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxLocation1">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelLocation2Caption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxLocation2">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelLocAccuracyCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxLocAccuracy">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelResponsibleNameCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxResponsibleName">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelDateCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="dateTimePickerDeterminationDate">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="buttonNewDate">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonShowMap">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="panelGPS">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+    </ClassConfiguration>
+    <!-- End Configure LocalisationDetailForm -->
+    
+    <!-- Start Configure SpecimenEditForm -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.ContextForms.SpecimenEditForm, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelAccessionNumber">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxAccessionNumber">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      
+      <FieldDescriptor FieldName="labelDepositorsName">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxDepositorsName">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      
+      <FieldDescriptor FieldName="labelLabelTitle">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxLabelTitle">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      
+      <FieldDescriptor FieldName="labelLabelType">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="comboBoxLabelType">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelExsiccataAbbreviation">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxExsicatta">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonOriginalNotes">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonAdditionalNotes">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonDataWithholdingReason">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      
+      <!-- usw. -->
+    </ClassConfiguration>
+    <!-- End Configure SpecimenEditForm -->
+  </Context>
+
+  <Context ContextId="ManagementMobile">
+    <!-- Start Configure NewEventDialog -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.Dialogs.NewEventDialog, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+
+
+    </ClassConfiguration>
+    <!-- End Configure NewEventDialog -->
+    
+    <!-- Start Configure NewSitePropertyDialog -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.Dialogs.NewSitePropertyDialog, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="buttonSearch">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonOk">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="comboBoxDisplayText">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="comboBoxPropertyGroup">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="treeViewPropertyHierarchy">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+    </ClassConfiguration>
+    <!-- End Configure NewSitePropertyDialog -->
+    
+    <!-- Start Configure NewGPSLocalisationForm -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.Dialogs.NewGPSLocalisationForm, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelLongitude">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxLongitude">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelLatitude">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxLatitude">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelAltitude">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxAltitude">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonGPS">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="buttonOk">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+ 
+    </ClassConfiguration>
+    <!-- End Configure NewGPSLocalisationForm -->
+    
+    <!-- Start Configure NewAnalysisDialog -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.Dialogs.NewAnalysisDialog, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelValueCaption">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="comboBoxAnalysisValue">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="comboBoxAnalysis">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelAnalysisDescription">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="dateTimePickerAnalysis">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonOk">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+    </ClassConfiguration>
+    <!-- End Configure NewAnalysisDialog -->
+    
+    <!-- Start Configure EventSeriesDialog -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.Dialogs.EventSeriesDialog, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelSeriesCode">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxSeriesCode">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelDescriptionCaption">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxDescription">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelDateCaption">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="labelDate">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelDateEnd">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="labelDateEndValue">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonOk">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+    </ClassConfiguration>
+    <!-- End Configure EventSeriesDialog -->
+    
+    <!-- Start Configure AgentForm -->
+    <!--
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.ContextForms.AgentForm, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelCollectorsNameCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxCollectorsName">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="buttonChangeName">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelNumberCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxNumber">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelNotes">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxNotes">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+    </ClassConfiguration>
+    -->
+    <!-- End Configure AgentForm -->
+
+    <!-- Start Configure CollectionEventForm -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.ContextForms.CollectionEventForm, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelCollectionTimeCaption">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxCollectionTime">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelCollectorsEventNumberCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxCollectorsEventNumber">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelTimespan">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxTimeSpan">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelDateCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="dateTimePickerCollectionEventDate">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonNewDate">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelVersionCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="labelVersion">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelDateSupplement">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxDateSupplement">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelRefTitle">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxRefTitle">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelCountryCache">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxCountryCache">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonHabitat">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="buttonLocality">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonMethod">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="buttonNotes">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+    </ClassConfiguration>
+    <!-- End Configure CollectionEventForm -->
+
+    <!-- Start Configure EventPropertyForm -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.ContextForms.EventPropertyForm, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelAverageValueCaption">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="labelAverageValue">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelValueCaption">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxValue">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelDisplayTextCaption">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxDisplayText">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+     
+      <FieldDescriptor FieldName="labelResponsibleNameCaption">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="labelResponsible">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+    </ClassConfiguration>
+    <!-- End Configure EventPropertyForm -->
+
+    <!-- Start Configure IdentificationUnitForm -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.ContextForms.IdentificationUnitForm, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelLastIdentificationCacheCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxSearch">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="comboBoxIdentification">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+    
+      <FieldDescriptor FieldName="labelTaxonomicGroupCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="labelTaxonomicGroup">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelRelatedUnitCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="labelRelatedUnit">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelRelationTypeCaption">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="comboBoxRelationType">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelCircumstances">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="comboBoxCircumstances">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelNumberOfUnits">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxNumberOfUnits">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelGender">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxGender">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelLifestage">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxLifeStage">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelColonisedSubstratePart">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxColonisedSubstratePart">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="checkBoxIUOnlyObservedDetails">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelDisplayOrder">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxDisplayOrder">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelUnitDescriptionCaption">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="comboBoxIUUnitDescription">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelUnitIdentifierCaption">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxUnitIdentifier">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      
+      <FieldDescriptor FieldName="buttonNotes">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+    </ClassConfiguration>
+    <!-- End Configure IdentificationUnitForm -->
+
+    <!-- Start Configure IdentificationUnitAnalysisForm -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.ContextForms.IdentificationUnitAnalysisForm, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelAnalysisDateCaption">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxAnalysisDate">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelAnalysisResultCaption">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxAnalysisResult">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelIUCaption">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="labelIU">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelCSCaption">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="labelCS">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelAnalysisCaption">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="labelAnalysis">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+    </ClassConfiguration>
+    <!-- End Configure IdentificationUnitAnalysisForm -->
+
+    <!-- Start Configure LocalisationDetailForm -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.ContextForms.LocalisationDetailForm, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelLocation1Caption">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxLocation1">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelLocation2Caption">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxLocation2">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelLocAccuracyCaption">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxLocAccuracy">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelResponsibleNameCaption">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxResponsibleName">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelDateCaption">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="dateTimePickerDeterminationDate">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="buttonNewDate">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonShowMap">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="panelGPS">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+    </ClassConfiguration>
+    <!-- End Configure LocalisationDetailForm -->
+    
+    <!-- Start Configure SpecimenEditForm -->
+    <ClassConfiguration ClassName="UBT.AI4.Bio.DivMobi.Forms.ContextForms.SpecimenEditForm, DivMobi Collection Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <FieldDescriptor FieldName="labelAccessionNumber">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxAccessionNumber">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelDepositorsName">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxDepositorsName">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelLabelTitle">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxLabelTitle">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelLabelType">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="comboBoxLabelType">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="labelExsiccataAbbreviation">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+      <FieldDescriptor FieldName="textBoxExsicatta">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonOriginalNotes">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonAdditionalNotes">
+        <Action ActionId="Visible" Parameter="true" />
+      </FieldDescriptor>
+
+      <FieldDescriptor FieldName="buttonDataWithholdingReason">
+        <Action ActionId="Visible" Parameter="false" />
+      </FieldDescriptor>
+    </ClassConfiguration>
+    <!-- End Configure SpecimenEditForm -->
+  </Context>
